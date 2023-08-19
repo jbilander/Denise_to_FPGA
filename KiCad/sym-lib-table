@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name DENISE_to_FPGA)(type Legacy)(uri ${KIPRJMOD}/DENISE_to_FPGA.lib)(options "")(descr ""))
+)
