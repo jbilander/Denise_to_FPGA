@@ -66,272 +66,163 @@ Wire Wire Line
 Text GLabel 1250 1700 0    50   Input ~ 0
 GND
 $Comp
-L DENISE_to_FPGA:Denise U2
+L DENISE_to_FPGA:Denise U4
 U 1 1 623BE5C5
-P 2950 3100
-F 0 "U2" H 2950 4665 50  0000 C CNN
-F 1 "Denise_MB_PinHeader" H 2950 4574 50  0000 C CNN
-F 2 "Package_DIP:DIP-48_W15.24mm_LongPads" H 2900 1600 50  0001 C CNN
-F 3 "" H 2900 1600 50  0001 C CNN
-	1    2950 3100
+P 4250 3100
+F 0 "U4" H 4250 4665 50  0000 C CNN
+F 1 "Denise_MB_PinHeader" H 4250 4574 50  0000 C CNN
+F 2 "DENISE_to_FPGA:DIP-48_W15.24mm_Socket_LongPads" H 4200 1600 50  0001 C CNN
+F 3 "" H 4200 1600 50  0001 C CNN
+	1    4250 3100
 	1    0    0    -1  
 $EndComp
-$Comp
-L DENISE_to_FPGA:Denise U1
-U 1 1 623E379A
-P 4700 3100
-F 0 "U1" H 4700 4665 50  0000 C CNN
-F 1 "Denise_Socket" H 4700 4574 50  0000 C CNN
-F 2 "Package_DIP:DIP-48_W15.24mm_Socket_LongPads" H 4650 1600 50  0001 C CNN
-F 3 "" H 4650 1600 50  0001 C CNN
-	1    4700 3100
-	1    0    0    -1  
-$EndComp
-Text GLabel 2400 1800 0    50   BiDi ~ 0
+Text GLabel 3700 1800 0    50   BiDi ~ 0
 D6
-Text GLabel 4150 1800 0    50   BiDi ~ 0
-D6
-Text GLabel 2400 1900 0    50   BiDi ~ 0
+Text GLabel 3700 1900 0    50   BiDi ~ 0
 D5
-Text GLabel 4150 1900 0    50   BiDi ~ 0
-D5
-Text GLabel 2400 2000 0    50   BiDi ~ 0
+Text GLabel 3700 2000 0    50   BiDi ~ 0
 D4
-Text GLabel 2400 2100 0    50   BiDi ~ 0
+Text GLabel 3700 2100 0    50   BiDi ~ 0
 D3
-Text GLabel 2400 2200 0    50   BiDi ~ 0
+Text GLabel 3700 2200 0    50   BiDi ~ 0
 D2
-Text GLabel 2400 2300 0    50   BiDi ~ 0
+Text GLabel 3700 2300 0    50   BiDi ~ 0
 D1
-Text GLabel 2400 2400 0    50   BiDi ~ 0
+Text GLabel 3700 2400 0    50   BiDi ~ 0
 D0
-Text GLabel 4150 2000 0    50   BiDi ~ 0
-D4
-Text GLabel 4150 2100 0    50   BiDi ~ 0
-D3
-Text GLabel 4150 2200 0    50   BiDi ~ 0
-D2
-Text GLabel 4150 2300 0    50   BiDi ~ 0
-D1
-Text GLabel 4150 2400 0    50   BiDi ~ 0
-D0
-Text GLabel 2400 2550 0    50   Output ~ 0
+Text GLabel 3700 2550 0    50   Output ~ 0
 M1H
-Text GLabel 2400 2650 0    50   Output ~ 0
+Text GLabel 3700 2650 0    50   Output ~ 0
 M0H
-Text GLabel 4150 2550 0    50   Input ~ 0
-M1H
-Text GLabel 4150 2650 0    50   Input ~ 0
-M0H
-Text GLabel 2400 3000 0    50   Output ~ 0
+Text GLabel 3700 3000 0    50   Output ~ 0
 RGA6
-Text GLabel 2400 3100 0    50   Output ~ 0
+Text GLabel 3700 3100 0    50   Output ~ 0
 RGA5
-Text GLabel 2400 3200 0    50   Output ~ 0
+Text GLabel 3700 3200 0    50   Output ~ 0
 RGA4
-Text GLabel 2400 3300 0    50   Output ~ 0
+Text GLabel 3700 3300 0    50   Output ~ 0
 RGA3
-Text GLabel 2400 3400 0    50   Output ~ 0
+Text GLabel 3700 3400 0    50   Output ~ 0
 RGA2
-Text GLabel 2400 3500 0    50   Output ~ 0
+Text GLabel 3700 3500 0    50   Output ~ 0
 RGA1
-Text GLabel 2400 2900 0    50   Output ~ 0
+Text GLabel 3700 2900 0    50   Output ~ 0
 RGA7
-Text GLabel 2400 2800 0    50   Output ~ 0
+Text GLabel 3700 2800 0    50   Output ~ 0
 RGA8
-Text GLabel 4150 3000 0    50   Input ~ 0
-RGA6
-Text GLabel 4150 3100 0    50   Input ~ 0
-RGA5
-Text GLabel 4150 3200 0    50   Input ~ 0
-RGA4
-Text GLabel 4150 3300 0    50   Input ~ 0
-RGA3
-Text GLabel 4150 3400 0    50   Input ~ 0
-RGA2
-Text GLabel 4150 3500 0    50   Input ~ 0
-RGA1
-Text GLabel 4150 2900 0    50   Input ~ 0
-RGA7
-Text GLabel 4150 2800 0    50   Input ~ 0
-RGA8
-Text GLabel 4150 3650 0    50   Output ~ 0
+Text GLabel 3700 3650 0    50   Input ~ 0
 BURST
-Text GLabel 2400 3650 0    50   Input ~ 0
-BURST
-Text GLabel 2400 3800 0    50   Input ~ 0
+Text GLabel 3700 3800 0    50   Input ~ 0
 VCC
-Text GLabel 4150 3800 0    50   Input ~ 0
-VCC
-Text GLabel 2400 4050 0    50   Input ~ 0
+Text GLabel 3700 4050 0    50   Input ~ 0
 R1
-Text GLabel 2400 3950 0    50   Input ~ 0
+Text GLabel 3700 3950 0    50   Input ~ 0
 R0
-Text GLabel 2400 4250 0    50   Input ~ 0
+Text GLabel 3700 4250 0    50   Input ~ 0
 R3
-Text GLabel 2400 4150 0    50   Input ~ 0
+Text GLabel 3700 4150 0    50   Input ~ 0
 R2
-Text GLabel 2400 4350 0    50   Input ~ 0
+Text GLabel 3700 4350 0    50   Input ~ 0
 B0
-Text GLabel 4150 4050 0    50   Output ~ 0
-R1
-Text GLabel 4150 3950 0    50   Output ~ 0
-R0
-Text GLabel 4150 4250 0    50   Output ~ 0
-R3
-Text GLabel 4150 4150 0    50   Output ~ 0
-R2
-Text GLabel 4150 4350 0    50   Output ~ 0
-B0
-Text GLabel 3500 3950 2    50   Input ~ 0
+Text GLabel 4800 3950 2    50   Input ~ 0
 G1
-Text GLabel 3500 4050 2    50   Input ~ 0
+Text GLabel 4800 4050 2    50   Input ~ 0
 G0
-Text GLabel 3500 4250 2    50   Input ~ 0
+Text GLabel 4800 4250 2    50   Input ~ 0
 B2
-Text GLabel 3500 4150 2    50   Input ~ 0
+Text GLabel 4800 4150 2    50   Input ~ 0
 B3
-Text GLabel 3500 4350 2    50   Input ~ 0
+Text GLabel 4800 4350 2    50   Input ~ 0
 B1
-Text GLabel 3500 3750 2    50   Input ~ 0
+Text GLabel 4800 3750 2    50   Input ~ 0
 G3
-Text GLabel 3500 3850 2    50   Input ~ 0
+Text GLabel 4800 3850 2    50   Input ~ 0
 G2
-Text GLabel 5250 3950 2    50   Output ~ 0
-G1
-Text GLabel 5250 4050 2    50   Output ~ 0
-G0
-Text GLabel 5250 4250 2    50   Output ~ 0
-B2
-Text GLabel 5250 4150 2    50   Output ~ 0
-B3
-Text GLabel 5250 4350 2    50   Output ~ 0
-B1
-Text GLabel 5250 3750 2    50   Output ~ 0
-G3
-Text GLabel 5250 3850 2    50   Output ~ 0
-G2
-Text GLabel 5250 3550 2    50   Input ~ 0
+Text GLabel 4800 3550 2    50   Output ~ 0
 CSYNC
-Text GLabel 3500 3550 2    50   Output ~ 0
-CSYNC
-Text GLabel 5250 3450 2    50   Output ~ 0
+Text GLabel 4800 3450 2    50   Input ~ 0
 PIXELSW
-Text GLabel 3500 3450 2    50   Input ~ 0
-PIXELSW
-Text GLabel 5250 3350 2    50   Input ~ 0
+Text GLabel 4800 3350 2    50   Output ~ 0
 CDAC
-Text GLabel 3500 3350 2    50   Output ~ 0
-CDAC
-Text GLabel 3500 3250 2    50   Output ~ 0
+Text GLabel 4800 3250 2    50   Output ~ 0
 C7M
-Text GLabel 5250 3250 2    50   Input ~ 0
-C7M
-Text GLabel 3500 3150 2    50   Output ~ 0
+Text GLabel 4800 3150 2    50   Output ~ 0
 CCK
-Text GLabel 5250 3150 2    50   Input ~ 0
-CCK
-Text GLabel 3500 3000 2    50   Input ~ 0
+Text GLabel 4800 3000 2    50   Input ~ 0
 GND
-Text GLabel 5250 3000 2    50   Input ~ 0
-GND
-Text GLabel 3500 2750 2    50   Output ~ 0
+Text GLabel 4800 2750 2    50   Output ~ 0
 M1V
-Text GLabel 3500 2850 2    50   Output ~ 0
+Text GLabel 4800 2850 2    50   Output ~ 0
 M0V
-Text GLabel 5250 2750 2    50   Input ~ 0
-M1V
-Text GLabel 5250 2850 2    50   Input ~ 0
-M0V
-Text GLabel 3500 1800 2    50   BiDi ~ 0
+Text GLabel 4800 1800 2    50   BiDi ~ 0
 D7
-Text GLabel 3500 1900 2    50   BiDi ~ 0
+Text GLabel 4800 1900 2    50   BiDi ~ 0
 D8
-Text GLabel 3500 2000 2    50   BiDi ~ 0
+Text GLabel 4800 2000 2    50   BiDi ~ 0
 D9
-Text GLabel 3500 2100 2    50   BiDi ~ 0
+Text GLabel 4800 2100 2    50   BiDi ~ 0
 D10
-Text GLabel 3500 2200 2    50   BiDi ~ 0
+Text GLabel 4800 2200 2    50   BiDi ~ 0
 D11
-Text GLabel 3500 2300 2    50   BiDi ~ 0
+Text GLabel 4800 2300 2    50   BiDi ~ 0
 D12
-Text GLabel 3500 2400 2    50   BiDi ~ 0
+Text GLabel 4800 2400 2    50   BiDi ~ 0
 D13
-Text GLabel 3500 2500 2    50   BiDi ~ 0
+Text GLabel 4800 2500 2    50   BiDi ~ 0
 D14
-Text GLabel 3500 2600 2    50   BiDi ~ 0
+Text GLabel 4800 2600 2    50   BiDi ~ 0
 D15
-Text GLabel 5250 1800 2    50   BiDi ~ 0
-D7
-Text GLabel 5250 1900 2    50   BiDi ~ 0
-D8
-Text GLabel 5250 2000 2    50   BiDi ~ 0
-D9
-Text GLabel 5250 2100 2    50   BiDi ~ 0
-D10
-Text GLabel 5250 2200 2    50   BiDi ~ 0
-D11
-Text GLabel 5250 2300 2    50   BiDi ~ 0
-D12
-Text GLabel 5250 2400 2    50   BiDi ~ 0
-D13
-Text GLabel 5250 2500 2    50   BiDi ~ 0
-D14
-Text GLabel 5250 2600 2    50   BiDi ~ 0
-D15
-Text GLabel 8600 3500 3    50   Input ~ 0
-GND
-Text GLabel 10000 1050 2    50   Input ~ 0
+Text GLabel 6050 3450 0    50   Input ~ 0
 R1
-Text GLabel 10000 1150 2    50   Input ~ 0
+Text GLabel 6050 3350 0    50   Input ~ 0
 R0
-Text GLabel 10000 850  2    50   Input ~ 0
+Text GLabel 6050 3650 0    50   Input ~ 0
 R3
-Text GLabel 10000 950  2    50   Input ~ 0
+Text GLabel 6050 3550 0    50   Input ~ 0
 R2
-Text GLabel 10000 1950 2    50   Input ~ 0
+Text GLabel 7900 3350 0    50   Input ~ 0
 B0
-Text GLabel 10000 1450 2    50   Input ~ 0
+Text GLabel 6050 3850 0    50   Input ~ 0
 G1
-Text GLabel 10000 1550 2    50   Input ~ 0
+Text GLabel 6050 3750 0    50   Input ~ 0
 G0
-Text GLabel 10000 1750 2    50   Input ~ 0
+Text GLabel 7900 3550 0    50   Input ~ 0
 B2
-Text GLabel 10000 1650 2    50   Input ~ 0
+Text GLabel 7900 3650 0    50   Input ~ 0
 B3
-Text GLabel 10000 1850 2    50   Input ~ 0
+Text GLabel 7900 3450 0    50   Input ~ 0
 B1
-Text GLabel 10000 1250 2    50   Input ~ 0
+Text GLabel 6050 4050 0    50   Input ~ 0
 G3
-Text GLabel 10000 1350 2    50   Input ~ 0
+Text GLabel 6050 3950 0    50   Input ~ 0
 G2
-Text GLabel 9700 1950 0    50   Output ~ 0
+Text GLabel 8900 3350 2    50   Output ~ 0
 B0_3V3
-Text GLabel 9700 1750 0    50   Output ~ 0
+Text GLabel 8900 3550 2    50   Output ~ 0
 B2_3V3
-Text GLabel 9700 1850 0    50   Output ~ 0
+Text GLabel 8900 3450 2    50   Output ~ 0
 B1_3V3
 Text GLabel 6400 2100 3    50   Input ~ 0
 CSYNC
-Text GLabel 9700 1650 0    50   Output ~ 0
+Text GLabel 8900 3650 2    50   Output ~ 0
 B3_3V3
-Text GLabel 9700 2050 0    50   Output ~ 0
+Text GLabel 8900 3750 2    50   Output ~ 0
 CSYNC_3V3
-Text GLabel 9700 1150 0    50   Output ~ 0
+Text GLabel 7050 3350 2    50   Output ~ 0
 R0_3V3
-Text GLabel 9700 1250 0    50   Output ~ 0
+Text GLabel 7050 4050 2    50   Output ~ 0
 G3_3V3
-Text GLabel 9700 1050 0    50   Output ~ 0
+Text GLabel 7050 3450 2    50   Output ~ 0
 R1_3V3
-Text GLabel 9700 1350 0    50   Output ~ 0
+Text GLabel 7050 3950 2    50   Output ~ 0
 G2_3V3
-Text GLabel 9700 1450 0    50   Output ~ 0
+Text GLabel 7050 3850 2    50   Output ~ 0
 G1_3V3
-Text GLabel 9700 1550 0    50   Output ~ 0
+Text GLabel 7050 3750 2    50   Output ~ 0
 G0_3V3
-Text GLabel 9700 950  0    50   Output ~ 0
+Text GLabel 7050 3550 2    50   Output ~ 0
 R2_3V3
-Text GLabel 9700 850  0    50   Output ~ 0
+Text GLabel 7050 3650 2    50   Output ~ 0
 R3_3V3
 $Comp
 L DENISE_to_FPGA:LM1117-3.3 U3
@@ -452,34 +343,6 @@ Wire Wire Line
 Wire Wire Line
 	7900 850  7600 850 
 Connection ~ 7600 850 
-$Comp
-L Connector_Generic:Conn_01x01 J3
-U 1 1 62568E0B
-P 8100 2300
-F 0 "J3" V 8300 2300 50  0000 R CNN
-F 1 "Conn_01x01" V 8200 2650 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Horizontal" H 8100 2300 50  0001 C CNN
-F 3 "~" H 8100 2300 50  0001 C CNN
-	1    8100 2300
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8100 2500 8100 2700
-$Comp
-L Jumper:Jumper_2_Open BT1
-U 1 1 62508B6C
-P 7600 3350
-F 0 "BT1" V 7550 3150 50  0000 L CNN
-F 1 "Jumper_2_Open" V 7650 2700 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 7600 3350 50  0001 C CNN
-F 3 "~" H 7600 3350 50  0001 C CNN
-	1    7600 3350
-	0    -1   -1   0   
-$EndComp
-Text GLabel 7600 3550 3    50   Input ~ 0
-GND
-Wire Wire Line
-	8600 3500 8900 3500
 Wire Wire Line
 	7900 1200 8150 1200
 Connection ~ 7900 1200
@@ -496,4 +359,177 @@ F 3 "~" H 6400 1900 50  0001 C CNN
 $EndComp
 Text GLabel 6500 2100 3    50   Input ~ 0
 CDAC
+$Comp
+L DENISE_to_FPGA:74LVC245A U1
+U 1 1 64E6F2EB
+P 6550 3850
+F 0 "U1" H 6550 4831 50  0000 C CNN
+F 1 "74LVC245A" H 6550 4740 50  0000 C CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 6550 3850 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/916/74LVC_LVCH245A-1389000.pdf" H 6550 3850 50  0001 C CNN
+	1    6550 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L DENISE_to_FPGA:74LVC245A U2
+U 1 1 64E71AF2
+P 8400 3850
+F 0 "U2" H 8400 4831 50  0000 C CNN
+F 1 "74LVC245A" H 8400 4740 50  0000 C CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 8400 3850 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/916/74LVC_LVCH245A-1389000.pdf" H 8400 3850 50  0001 C CNN
+	1    8400 3850
+	1    0    0    -1  
+$EndComp
+Text GLabel 6050 4250 0    50   Input ~ 0
+3V3
+Text GLabel 6550 3050 0    50   Input ~ 0
+3V3
+Text GLabel 6050 4350 0    50   Input ~ 0
+GND
+Text GLabel 6550 4650 3    50   Input ~ 0
+GND
+$Comp
+L Connector_Generic_MountingPin:Conn_01x40_MountingPin J2
+U 1 1 64E8ADCA
+P 10650 3400
+F 0 "J2" H 10730 3392 50  0000 L CNN
+F 1 "Conn_01x40" H 10730 3301 50  0000 L CNN
+F 2 "Connector_FFC-FPC:Hirose_FH12-40S-0.5SH_1x40-1MP_P0.50mm_Horizontal" H 10650 3400 50  0001 C CNN
+F 3 "~" H 10650 3400 50  0001 C CNN
+	1    10650 3400
+	1    0    0    -1  
+$EndComp
+Text GLabel 10450 5200 0    50   Input ~ 0
+GND
+Text GLabel 10050 2600 0    50   Input ~ 0
+GND
+Text GLabel 10450 4600 0    50   Input ~ 0
+R0_3V3
+Text GLabel 10450 4500 0    50   Input ~ 0
+R1_3V3
+Text GLabel 10450 4400 0    50   Input ~ 0
+R2_3V3
+Text GLabel 10450 4300 0    50   Input ~ 0
+R3_3V3
+Text GLabel 10050 3100 0    50   Input ~ 0
+GND
+Wire Wire Line
+	10450 3100 10350 3100
+Wire Wire Line
+	10350 3100 10350 3200
+Wire Wire Line
+	10350 3200 10450 3200
+Connection ~ 10350 3100
+Wire Wire Line
+	10350 3200 10350 3300
+Wire Wire Line
+	10350 3300 10450 3300
+Connection ~ 10350 3200
+Wire Wire Line
+	10350 3300 10350 3400
+Connection ~ 10350 3300
+Wire Wire Line
+	10050 3100 10350 3100
+Wire Wire Line
+	10450 3400 10350 3400
+Text GLabel 10050 4700 0    50   Input ~ 0
+GND
+Wire Wire Line
+	10450 4700 10350 4700
+Wire Wire Line
+	10350 4700 10350 4800
+Wire Wire Line
+	10350 4800 10450 4800
+Connection ~ 10350 4700
+Wire Wire Line
+	10350 4800 10350 4900
+Wire Wire Line
+	10350 4900 10450 4900
+Connection ~ 10350 4800
+Wire Wire Line
+	10350 4900 10350 5000
+Connection ~ 10350 4900
+Wire Wire Line
+	10050 4700 10350 4700
+Wire Wire Line
+	10450 5000 10350 5000
+Text GLabel 10050 3900 0    50   Input ~ 0
+GND
+Wire Wire Line
+	10450 3900 10350 3900
+Wire Wire Line
+	10350 3900 10350 4000
+Wire Wire Line
+	10350 4000 10450 4000
+Connection ~ 10350 3900
+Wire Wire Line
+	10350 4000 10350 4100
+Wire Wire Line
+	10350 4100 10450 4100
+Connection ~ 10350 4000
+Wire Wire Line
+	10350 4100 10350 4200
+Connection ~ 10350 4100
+Wire Wire Line
+	10050 3900 10350 3900
+Wire Wire Line
+	10450 4200 10350 4200
+NoConn ~ 10450 5100
+NoConn ~ 10450 5300
+NoConn ~ 10450 5400
+Text GLabel 10450 3000 0    50   Input ~ 0
+B0_3V3
+Text GLabel 10450 2900 0    50   Input ~ 0
+B1_3V3
+Text GLabel 10450 2800 0    50   Input ~ 0
+B2_3V3
+Text GLabel 10450 2700 0    50   Input ~ 0
+B3_3V3
+Text GLabel 7900 4250 0    50   Input ~ 0
+3V3
+Text GLabel 7900 4350 0    50   Input ~ 0
+GND
+Text GLabel 8400 4650 3    50   Input ~ 0
+GND
+Text GLabel 7900 3750 0    50   Input ~ 0
+CSYNC
+Text GLabel 7900 3850 0    50   Input ~ 0
+PIXELSW
+Text GLabel 7900 3950 0    50   Input ~ 0
+CDAC
+Text GLabel 7900 4050 0    50   Input ~ 0
+C7M
+Text GLabel 8900 3850 2    50   Output ~ 0
+PIXELSW_3V3
+Text GLabel 8900 3950 2    50   Output ~ 0
+CDAC_3V3
+Text GLabel 8900 4050 2    50   Output ~ 0
+C7M_3V3
+Text GLabel 10450 3500 0    50   Input ~ 0
+G3_3V3
+Text GLabel 10450 3600 0    50   Input ~ 0
+G2_3V3
+Text GLabel 10450 3700 0    50   Input ~ 0
+G1_3V3
+Text GLabel 10450 3800 0    50   Input ~ 0
+G0_3V3
+Text GLabel 8400 3050 0    50   Input ~ 0
+3V3
+Wire Wire Line
+	10050 2600 10450 2600
+Text GLabel 10450 2500 0    50   Input ~ 0
+CSYNC_3V3
+Text GLabel 10450 2400 0    50   Input ~ 0
+PIXELSW_3V3
+Text GLabel 10450 2300 0    50   Input ~ 0
+CDAC_3V3
+Text GLabel 10450 2200 0    50   Input ~ 0
+C7M_3V3
+Text GLabel 10050 1900 0    50   Input ~ 0
+GND
+Wire Wire Line
+	10050 1900 10450 1900
+Text GLabel 10650 5600 3    50   Input ~ 0
+GND
 $EndSCHEMATC

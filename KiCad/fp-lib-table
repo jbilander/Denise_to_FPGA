@@ -1,2 +1,3 @@
 (fp_lib_table
+  (lib (name DENISE_to_FPGA)(type KiCad)(uri /Users/jbilander/Projects/Denise_to_FPGA/DENISE_to_FPGA.pretty)(options "")(descr ""))
 )
