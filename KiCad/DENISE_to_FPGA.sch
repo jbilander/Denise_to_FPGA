@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:PWR_FLAG #FLG0101
+L power:PWR_FLAG #FLG01
 U 1 1 62293CD1
 P 900 1750
-F 0 "#FLG0101" H 900 1825 50  0001 C CNN
+F 0 "#FLG01" H 900 1825 50  0001 C CNN
 F 1 "PWR_FLAG" H 900 1923 50  0000 C CNN
 F 2 "" H 900 1750 50  0001 C CNN
 F 3 "~" H 900 1750 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "~" H 900 1750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+5V #PWR0101
+L power:+5V #PWR01
 U 1 1 622948A4
 P 900 1650
-F 0 "#PWR0101" H 900 1500 50  0001 C CNN
+F 0 "#PWR01" H 900 1500 50  0001 C CNN
 F 1 "+5V" H 915 1823 50  0000 C CNN
 F 2 "" H 900 1650 50  0001 C CNN
 F 3 "" H 900 1650 50  0001 C CNN
@@ -40,10 +40,10 @@ Wire Wire Line
 Text GLabel 900  1700 0    50   Input ~ 0
 VCC
 $Comp
-L power:PWR_FLAG #FLG0102
+L power:PWR_FLAG #FLG02
 U 1 1 622956B5
 P 1250 1650
-F 0 "#FLG0102" H 1250 1725 50  0001 C CNN
+F 0 "#FLG02" H 1250 1725 50  0001 C CNN
 F 1 "PWR_FLAG" H 1250 1823 50  0000 C CNN
 F 2 "" H 1250 1650 50  0001 C CNN
 F 3 "~" H 1250 1650 50  0001 C CNN
@@ -51,10 +51,10 @@ F 3 "~" H 1250 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0102
+L power:GND #PWR02
 U 1 1 62295B6C
 P 1250 1750
-F 0 "#PWR0102" H 1250 1500 50  0001 C CNN
+F 0 "#PWR02" H 1250 1500 50  0001 C CNN
 F 1 "GND" H 1255 1577 50  0000 C CNN
 F 2 "" H 1250 1750 50  0001 C CNN
 F 3 "" H 1250 1750 50  0001 C CNN
@@ -66,10 +66,10 @@ Wire Wire Line
 Text GLabel 1250 1700 0    50   Input ~ 0
 GND
 $Comp
-L DENISE_to_FPGA:Denise U4
+L DENISE_to_FPGA:Denise U5
 U 1 1 623BE5C5
 P 4250 3100
-F 0 "U4" H 4250 4665 50  0000 C CNN
+F 0 "U5" H 4250 4665 50  0000 C CNN
 F 1 "Denise_MB_PinHeader" H 4250 4574 50  0000 C CNN
 F 2 "DENISE_to_FPGA:DIP-48_W15.24mm_Socket_LongPads" H 4200 1600 50  0001 C CNN
 F 3 "" H 4200 1600 50  0001 C CNN
@@ -202,7 +202,7 @@ Text GLabel 8900 3550 2    50   Output ~ 0
 B2_3V3
 Text GLabel 8900 3450 2    50   Output ~ 0
 B1_3V3
-Text GLabel 6400 2100 3    50   Input ~ 0
+Text GLabel 6400 1850 0    50   Input ~ 0
 CSYNC
 Text GLabel 8900 3650 2    50   Output ~ 0
 B3_3V3
@@ -225,10 +225,10 @@ R2_3V3
 Text GLabel 7050 3650 2    50   Output ~ 0
 R3_3V3
 $Comp
-L DENISE_to_FPGA:LM1117-3.3 U3
+L DENISE_to_FPGA:LM1117-3.3 U1
 U 1 1 6246B1F1
 P 6550 1200
-F 0 "U3" H 6550 1442 50  0000 C CNN
+F 0 "U1" H 6550 1442 50  0000 C CNN
 F 1 "LM1117-3.3" H 6550 1351 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223" H 6550 1200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm1117.pdf" H 6550 1200 50  0001 C CNN
@@ -248,7 +248,7 @@ Wire Wire Line
 Wire Wire Line
 	6850 1200 6950 1200
 Connection ~ 6850 1200
-Text GLabel 8150 1200 2    50   Output ~ 0
+Text GLabel 8400 1200 2    50   Output ~ 0
 3V3
 $Comp
 L Device:C_Small C1
@@ -343,27 +343,13 @@ Wire Wire Line
 Wire Wire Line
 	7900 850  7600 850 
 Connection ~ 7600 850 
-Wire Wire Line
-	7900 1200 8150 1200
-Connection ~ 7900 1200
-$Comp
-L Connector_Generic:Conn_01x02 J1
-U 1 1 64E5B9C7
-P 6400 1900
-F 0 "J1" V 6364 1712 50  0000 R CNN
-F 1 "Conn_01x02" V 6273 1712 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 6400 1900 50  0001 C CNN
-F 3 "~" H 6400 1900 50  0001 C CNN
-	1    6400 1900
-	0    -1   -1   0   
-$EndComp
-Text GLabel 6500 2100 3    50   Input ~ 0
+Text GLabel 6400 1950 0    50   Input ~ 0
 CDAC
 $Comp
-L DENISE_to_FPGA:74LVC245A U1
+L DENISE_to_FPGA:74LVC245A U2
 U 1 1 64E6F2EB
 P 6550 3850
-F 0 "U1" H 6550 4831 50  0000 C CNN
+F 0 "U2" H 6550 4831 50  0000 C CNN
 F 1 "74LVC245A" H 6550 4740 50  0000 C CNN
 F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 6550 3850 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/916/74LVC_LVCH245A-1389000.pdf" H 6550 3850 50  0001 C CNN
@@ -371,10 +357,10 @@ F 3 "https://www.mouser.se/datasheet/2/916/74LVC_LVCH245A-1389000.pdf" H 6550 38
 	1    0    0    -1  
 $EndComp
 $Comp
-L DENISE_to_FPGA:74LVC245A U2
+L DENISE_to_FPGA:74LVC245A U3
 U 1 1 64E71AF2
 P 8400 3850
-F 0 "U2" H 8400 4831 50  0000 C CNN
+F 0 "U3" H 8400 4831 50  0000 C CNN
 F 1 "74LVC245A" H 8400 4740 50  0000 C CNN
 F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 8400 3850 50  0001 C CNN
 F 3 "https://www.mouser.se/datasheet/2/916/74LVC_LVCH245A-1389000.pdf" H 8400 3850 50  0001 C CNN
@@ -390,10 +376,10 @@ GND
 Text GLabel 6550 4650 3    50   Input ~ 0
 GND
 $Comp
-L Connector_Generic_MountingPin:Conn_01x40_MountingPin J2
+L Connector_Generic_MountingPin:Conn_01x40_MountingPin J3
 U 1 1 64E8ADCA
 P 10650 3400
-F 0 "J2" H 10730 3392 50  0000 L CNN
+F 0 "J3" H 10730 3392 50  0000 L CNN
 F 1 "Conn_01x40" H 10730 3301 50  0000 L CNN
 F 2 "Connector_FFC-FPC:Hirose_FH12-40S-0.5SH_1x40-1MP_P0.50mm_Horizontal" H 10650 3400 50  0001 C CNN
 F 3 "~" H 10650 3400 50  0001 C CNN
@@ -496,16 +482,14 @@ Text GLabel 7900 3750 0    50   Input ~ 0
 CSYNC
 Text GLabel 7900 3850 0    50   Input ~ 0
 PIXELSW
-Text GLabel 7900 3950 0    50   Input ~ 0
+Text GLabel 7800 2150 0    50   Input ~ 0
 CDAC
-Text GLabel 7900 4050 0    50   Input ~ 0
+Text GLabel 7800 2250 0    50   Input ~ 0
 C7M
 Text GLabel 8900 3850 2    50   Output ~ 0
 PIXELSW_3V3
-Text GLabel 8900 3950 2    50   Output ~ 0
-CDAC_3V3
-Text GLabel 8900 4050 2    50   Output ~ 0
-C7M_3V3
+Text GLabel 8800 2150 2    50   Output ~ 0
+C14M_3V3
 Text GLabel 10450 3500 0    50   Input ~ 0
 G3_3V3
 Text GLabel 10450 3600 0    50   Input ~ 0
@@ -522,14 +506,87 @@ Text GLabel 10450 2500 0    50   Input ~ 0
 CSYNC_3V3
 Text GLabel 10450 2400 0    50   Input ~ 0
 PIXELSW_3V3
-Text GLabel 10450 2300 0    50   Input ~ 0
-CDAC_3V3
-Text GLabel 10450 2200 0    50   Input ~ 0
-C7M_3V3
 Text GLabel 10050 1900 0    50   Input ~ 0
 GND
 Wire Wire Line
 	10050 1900 10450 1900
 Text GLabel 10650 5600 3    50   Input ~ 0
 GND
+Text GLabel 7900 3950 0    50   Input ~ 0
+HSYNC
+Text GLabel 8900 3950 2    50   Output ~ 0
+HSYNC_3V3
+Text GLabel 10450 2300 0    50   Input ~ 0
+HSYNC_3V3
+Text GLabel 7900 4050 0    50   Input ~ 0
+VSYNC
+Text GLabel 8900 4050 2    50   Output ~ 0
+VSYNC_3V3
+Text GLabel 10450 2200 0    50   Input ~ 0
+VSYNC_3V3
+Text GLabel 6400 2400 0    50   Input ~ 0
+HSYNC
+Text GLabel 6400 2300 0    50   Input ~ 0
+VSYNC
+Text GLabel 10450 2100 0    50   Input ~ 0
+C14M_3V3
+$Comp
+L DENISE_to_FPGA:74LVC1G86 U4
+U 1 1 64FB8746
+P 8300 2250
+F 0 "U4" H 8300 2615 50  0000 C CNN
+F 1 "74LVC1G86" H 8300 2524 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5_Handsoldering" H 8650 2450 50  0001 L CNN
+F 3 "" H 8650 2350 50  0001 L CNN
+	1    8300 2250
+	1    0    0    -1  
+$EndComp
+Text GLabel 7800 2350 0    50   Input ~ 0
+GND
+Text GLabel 8800 2250 2    50   Input ~ 0
+3V3
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 64FC8747
+P 6600 1850
+F 0 "J1" H 6680 1796 50  0000 L CNN
+F 1 "Conn_01x02" H 6680 1751 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 6600 1850 50  0001 C CNN
+F 3 "~" H 6600 1850 50  0001 C CNN
+	1    6600 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 1200 8200 1200
+Connection ~ 7900 1200
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 64FF4A26
+P 6600 2300
+F 0 "J2" H 6680 2246 50  0000 L CNN
+F 1 "Conn_01x02" H 6680 2201 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 6600 2300 50  0001 C CNN
+F 3 "~" H 6600 2300 50  0001 C CNN
+	1    6600 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C6
+U 1 1 64F7D283
+P 8200 1100
+F 0 "C6" H 8292 1146 50  0000 L CNN
+F 1 "0.1uF" H 8250 1250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8200 1100 50  0001 C CNN
+F 3 "~" H 8200 1100 50  0001 C CNN
+	1    8200 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 1000 8200 850 
+Wire Wire Line
+	8200 850  7900 850 
+Connection ~ 7900 850 
+Wire Wire Line
+	8200 1200 8400 1200
+Connection ~ 8200 1200
 $EndSCHEMATC
