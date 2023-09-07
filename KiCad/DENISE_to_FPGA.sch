@@ -386,8 +386,6 @@ F 3 "~" H 10650 3400 50  0001 C CNN
 	1    10650 3400
 	1    0    0    -1  
 $EndComp
-Text GLabel 10450 5200 0    50   Input ~ 0
-GND
 Text GLabel 10050 2600 0    50   Input ~ 0
 GND
 Text GLabel 10450 4600 0    50   Input ~ 0
@@ -419,27 +417,6 @@ Wire Wire Line
 	10050 3100 10350 3100
 Wire Wire Line
 	10450 3400 10350 3400
-Text GLabel 10050 4700 0    50   Input ~ 0
-GND
-Wire Wire Line
-	10450 4700 10350 4700
-Wire Wire Line
-	10350 4700 10350 4800
-Wire Wire Line
-	10350 4800 10450 4800
-Connection ~ 10350 4700
-Wire Wire Line
-	10350 4800 10350 4900
-Wire Wire Line
-	10350 4900 10450 4900
-Connection ~ 10350 4800
-Wire Wire Line
-	10350 4900 10350 5000
-Connection ~ 10350 4900
-Wire Wire Line
-	10050 4700 10350 4700
-Wire Wire Line
-	10450 5000 10350 5000
 Text GLabel 10050 3900 0    50   Input ~ 0
 GND
 Wire Wire Line
@@ -461,9 +438,6 @@ Wire Wire Line
 	10050 3900 10350 3900
 Wire Wire Line
 	10450 4200 10350 4200
-NoConn ~ 10450 5100
-NoConn ~ 10450 5300
-NoConn ~ 10450 5400
 Text GLabel 10450 3000 0    50   Input ~ 0
 B0_3V3
 Text GLabel 10450 2900 0    50   Input ~ 0
@@ -488,8 +462,6 @@ Text GLabel 7800 2250 0    50   Input ~ 0
 C7M
 Text GLabel 8900 3850 2    50   Output ~ 0
 PIXELSW_3V3
-Text GLabel 8800 2150 2    50   Output ~ 0
-C14M_3V3
 Text GLabel 10450 3500 0    50   Input ~ 0
 G3_3V3
 Text GLabel 10450 3600 0    50   Input ~ 0
@@ -504,32 +476,30 @@ Wire Wire Line
 	10050 2600 10450 2600
 Text GLabel 10450 2500 0    50   Input ~ 0
 CSYNC_3V3
-Text GLabel 10450 2400 0    50   Input ~ 0
+Text GLabel 10450 2300 0    50   Input ~ 0
 PIXELSW_3V3
-Text GLabel 10050 1900 0    50   Input ~ 0
+Text GLabel 10050 2000 0    50   Input ~ 0
 GND
 Wire Wire Line
-	10050 1900 10450 1900
+	10050 2000 10450 2000
 Text GLabel 10650 5600 3    50   Input ~ 0
 GND
 Text GLabel 7900 3950 0    50   Input ~ 0
 HSYNC
 Text GLabel 8900 3950 2    50   Output ~ 0
 HSYNC_3V3
-Text GLabel 10450 2300 0    50   Input ~ 0
+Text GLabel 10450 2100 0    50   Input ~ 0
 HSYNC_3V3
 Text GLabel 7900 4050 0    50   Input ~ 0
 VSYNC
 Text GLabel 8900 4050 2    50   Output ~ 0
 VSYNC_3V3
-Text GLabel 10450 2200 0    50   Input ~ 0
+Text GLabel 10450 1900 0    50   Input ~ 0
 VSYNC_3V3
 Text GLabel 6400 2400 0    50   Input ~ 0
 HSYNC
 Text GLabel 6400 2300 0    50   Input ~ 0
 VSYNC
-Text GLabel 10450 2100 0    50   Input ~ 0
-C14M_3V3
 $Comp
 L DENISE_to_FPGA:74LVC1G86 U4
 U 1 1 64FB8746
@@ -589,4 +559,56 @@ Connection ~ 7900 850
 Wire Wire Line
 	8200 1200 8400 1200
 Connection ~ 8200 1200
+Text GLabel 10050 2400 0    50   Input ~ 0
+GND
+Wire Wire Line
+	10050 2400 10450 2400
+Text GLabel 10050 2200 0    50   Input ~ 0
+GND
+Wire Wire Line
+	10050 2200 10450 2200
+Text GLabel 10050 1800 0    50   Input ~ 0
+GND
+Wire Wire Line
+	10050 1800 10450 1800
+Text GLabel 10050 1500 0    50   Input ~ 0
+GND
+Wire Wire Line
+	10450 1500 10350 1500
+$Comp
+L Device:R_Small R1
+U 1 1 64FE39F6
+P 9250 1700
+F 0 "R1" V 9054 1700 50  0000 C CNN
+F 1 "33 Ω" V 9145 1700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 9250 1700 50  0001 C CNN
+F 3 "~" H 9250 1700 50  0001 C CNN
+	1    9250 1700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8800 2150 8950 2150
+Wire Wire Line
+	8950 2150 8950 1700
+Wire Wire Line
+	8950 1700 9150 1700
+Wire Wire Line
+	9350 1700 10450 1700
+Text Label 9400 1700 0    50   ~ 0
+C14M_3V3
+NoConn ~ 10450 5400
+NoConn ~ 10450 5200
+NoConn ~ 10450 5000
+NoConn ~ 10450 4800
+NoConn ~ 10450 4700
+NoConn ~ 10450 4900
+NoConn ~ 10450 5100
+NoConn ~ 10450 5300
+Wire Wire Line
+	10450 1600 10350 1600
+Wire Wire Line
+	10350 1600 10350 1500
+Connection ~ 10350 1500
+Wire Wire Line
+	10350 1500 10050 1500
 $EndSCHEMATC
