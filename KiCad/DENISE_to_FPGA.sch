@@ -76,42 +76,6 @@ F 3 "" H 4200 1600 50  0001 C CNN
 	1    4250 3100
 	1    0    0    -1  
 $EndComp
-Text GLabel 3700 1800 0    50   BiDi ~ 0
-D6
-Text GLabel 3700 1900 0    50   BiDi ~ 0
-D5
-Text GLabel 3700 2000 0    50   BiDi ~ 0
-D4
-Text GLabel 3700 2100 0    50   BiDi ~ 0
-D3
-Text GLabel 3700 2200 0    50   BiDi ~ 0
-D2
-Text GLabel 3700 2300 0    50   BiDi ~ 0
-D1
-Text GLabel 3700 2400 0    50   BiDi ~ 0
-D0
-Text GLabel 3700 2550 0    50   Output ~ 0
-M1H
-Text GLabel 3700 2650 0    50   Output ~ 0
-M0H
-Text GLabel 3700 3000 0    50   Output ~ 0
-RGA6
-Text GLabel 3700 3100 0    50   Output ~ 0
-RGA5
-Text GLabel 3700 3200 0    50   Output ~ 0
-RGA4
-Text GLabel 3700 3300 0    50   Output ~ 0
-RGA3
-Text GLabel 3700 3400 0    50   Output ~ 0
-RGA2
-Text GLabel 3700 3500 0    50   Output ~ 0
-RGA1
-Text GLabel 3700 2900 0    50   Output ~ 0
-RGA7
-Text GLabel 3700 2800 0    50   Output ~ 0
-RGA8
-Text GLabel 3700 3650 0    50   Input ~ 0
-BURST
 Text GLabel 3700 3800 0    50   Input ~ 0
 VCC
 Text GLabel 3700 4050 0    50   Input ~ 0
@@ -138,40 +102,16 @@ Text GLabel 4800 3750 2    50   Input ~ 0
 G3
 Text GLabel 4800 3850 2    50   Input ~ 0
 G2
-Text GLabel 4800 3550 2    50   Output ~ 0
+Text GLabel 4800 3550 2    50   Input ~ 0
 CSYNC
-Text GLabel 4800 3450 2    50   Input ~ 0
+Text GLabel 4800 3450 2    50   Output ~ 0
 PIXELSW
-Text GLabel 4800 3350 2    50   Output ~ 0
+Text GLabel 4800 3350 2    50   Input ~ 0
 CDAC
-Text GLabel 4800 3250 2    50   Output ~ 0
+Text GLabel 4800 3250 2    50   Input ~ 0
 C7M
-Text GLabel 4800 3150 2    50   Output ~ 0
-CCK
 Text GLabel 4800 3000 2    50   Input ~ 0
 GND
-Text GLabel 4800 2750 2    50   Output ~ 0
-M1V
-Text GLabel 4800 2850 2    50   Output ~ 0
-M0V
-Text GLabel 4800 1800 2    50   BiDi ~ 0
-D7
-Text GLabel 4800 1900 2    50   BiDi ~ 0
-D8
-Text GLabel 4800 2000 2    50   BiDi ~ 0
-D9
-Text GLabel 4800 2100 2    50   BiDi ~ 0
-D10
-Text GLabel 4800 2200 2    50   BiDi ~ 0
-D11
-Text GLabel 4800 2300 2    50   BiDi ~ 0
-D12
-Text GLabel 4800 2400 2    50   BiDi ~ 0
-D13
-Text GLabel 4800 2500 2    50   BiDi ~ 0
-D14
-Text GLabel 4800 2600 2    50   BiDi ~ 0
-D15
 Text GLabel 6050 3450 0    50   Input ~ 0
 R1
 Text GLabel 6050 3350 0    50   Input ~ 0
@@ -619,4 +559,34 @@ Wire Wire Line
 	10450 4500 10350 4500
 Text GLabel 10050 4500 0    50   Input ~ 0
 GND
+NoConn ~ 3700 1800
+NoConn ~ 3700 1900
+NoConn ~ 3700 2000
+NoConn ~ 3700 2100
+NoConn ~ 3700 2200
+NoConn ~ 3700 2300
+NoConn ~ 3700 2400
+NoConn ~ 3700 2550
+NoConn ~ 3700 2650
+NoConn ~ 3700 2800
+NoConn ~ 3700 2900
+NoConn ~ 3700 3000
+NoConn ~ 3700 3100
+NoConn ~ 3700 3200
+NoConn ~ 3700 3300
+NoConn ~ 3700 3400
+NoConn ~ 3700 3500
+NoConn ~ 3700 3650
+NoConn ~ 4800 1800
+NoConn ~ 4800 1900
+NoConn ~ 4800 2000
+NoConn ~ 4800 2100
+NoConn ~ 4800 2200
+NoConn ~ 4800 2300
+NoConn ~ 4800 2400
+NoConn ~ 4800 2500
+NoConn ~ 4800 2600
+NoConn ~ 4800 2750
+NoConn ~ 4800 2850
+NoConn ~ 4800 3150
 $EndSCHEMATC
