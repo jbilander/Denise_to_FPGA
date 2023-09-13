@@ -1,16 +1,18 @@
 # Denise_to_FPGA
-A small adapter-board that connects 12-bit RGB, CLK, PIXELSW and SYNC-signals on Denise to a FPGA-board via a 5V-tolerant buffer.
-A synchronous 14 MHz clock is generated from `C7M XOR CDAC` by using a 74LVC1G86 chip. This will be fed into the FPGA's PLL.
+A small adapter-board that connects 12-bit RGB, 14 MHz CLK, PIXELSW and SYNC-signals on Denise to a FPGA-board via a 5V-tolerant buffer.
+A synchronous 14 MHz clock is generated from `C7M XOR CDAC` by using a `74LVC1G86`-chip. This will be fed into the FPGA's PLL.
+
+Board is two layers.
 
 WORK IN PROGRESS, NOT TESTED YET!
 
 ***
 
 <a href="images/Denise_to_FPGA_pic1.png">
-<img src="images/Denise_to_FPGA_pic1.png" width="600" height="294">
+<img src="images/Denise_to_FPGA_pic1.png" width="600" height="306">
 </a>
 <a href="images/Denise_to_FPGA_pic2.png">
-<img src="images/Denise_to_FPGA_pic2.png" width="600" height="294">
+<img src="images/Denise_to_FPGA_pic2.png" width="600" height="306">
 </a>
 
 ***
