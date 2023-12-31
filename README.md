@@ -4,7 +4,7 @@ A synchronous 14 MHz clock is generated from `C7M XOR CDAC` by using a `74LVC1G8
 
 Board is two layers.
 
-WORK IN PROGRESS, NOT TESTED YET!
+WORK IN PROGRESS, NOT FULLY TESTED YET!
 
 ***
 
@@ -16,7 +16,21 @@ WORK IN PROGRESS, NOT TESTED YET!
 </a>
 
 ***
+<a href="images/Denise_to_FPGA_pic3.jpg">
+<img src="images/Denise_to_FPGA_pic3.jpg" width="384" height="288">
+</a>
+<a href="images/Denise_to_FPGA_pic4.jpg">
+<img src="images/Denise_to_FPGA_pic4.jpg" width="384" height="288">
+</a>
+<br />
+<a href="images/Denise_to_FPGA_pic5.jpg">
+<img src="images/Denise_to_FPGA_pic5.jpg" width="384" height="288">
+</a>
+<a href="images/Denise_to_FPGA_pic6.jpg">
+<img src="images/Denise_to_FPGA_pic6.jpg" width="384" height="288">
+</a>
 
+***
 BOM Rev. A
 ---------
 Designator  | Name/Value   | Package | Notes
