@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74LVC162244A
+D 74LVC162244A; LVCH162244A - 16-bit buffer/line driver; 30 Ohm series termination resistors; 5Vtolerant input/output; 3-state
+$ENDCMP
+#
 $CMP 74LVC245A
 D Octal BUS Transceivers, 3-State outputs
 K TTL BUS 3State 8-bit transceiver with 3-state outputs
