@@ -436,17 +436,15 @@ Wire Wire Line
 $Comp
 L Device:R_Small R1
 U 1 1 64FE39F6
-P 8650 4600
-F 0 "R1" V 8454 4600 50  0000 C CNN
-F 1 "33 Ω" V 8545 4600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 8650 4600 50  0001 C CNN
-F 3 "~" H 8650 4600 50  0001 C CNN
-	1    8650 4600
+P 8800 4850
+F 0 "R1" V 8604 4850 50  0000 C CNN
+F 1 "33 Ω" V 8695 4850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 8800 4850 50  0001 C CNN
+F 3 "~" H 8800 4850 50  0001 C CNN
+	1    8800 4850
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	8350 4600 8550 4600
-Text Label 8950 4600 0    50   ~ 0
+Text Label 9000 4850 0    50   ~ 0
 C14M_3V3
 NoConn ~ 10450 5400
 NoConn ~ 10450 5200
@@ -607,29 +605,40 @@ Connection ~ 8500 1200
 Wire Wire Line
 	9000 1200 8800 1200
 Connection ~ 8800 1200
-$Comp
-L DENISE_to_FPGA:74LVC1G86 U3
-U 1 1 66FC0049
-P 7850 4700
-F 0 "U3" H 7850 5065 50  0000 C CNN
-F 1 "74LVC1G86" H 7850 4974 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5_Handsoldering" H 8200 4900 50  0001 L CNN
-F 3 "" H 8200 4800 50  0001 L CNN
-	1    7850 4700
-	1    0    0    -1  
-$EndComp
-Text GLabel 8350 4700 2    50   Input ~ 0
+Text GLabel 8350 4750 2    50   Input ~ 0
 3V3
-Text GLabel 7350 4700 0    50   Input ~ 0
+Text GLabel 7050 4650 0    50   Input ~ 0
 CDAC
-Text GLabel 7350 4800 0    50   Input ~ 0
+Text GLabel 7350 4750 0    50   Input ~ 0
 GND
 Wire Wire Line
-	8750 4600 9450 4600
-Wire Wire Line
-	9450 4600 9450 1500
-Wire Wire Line
 	9450 1500 10450 1500
-Text GLabel 7350 4600 0    50   Input ~ 0
+Text GLabel 8350 4650 2    50   Input ~ 0
 C7M
+$Comp
+L DENISE_to_FPGA:74LVC1G57GV U3
+U 1 1 66FF807E
+P 7850 4750
+F 0 "U3" H 7850 5115 50  0000 C CNN
+F 1 "74LVC1G57GV" H 7850 5024 50  0000 C CNN
+F 2 "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm" H 8200 4950 50  0001 L CNN
+F 3 "" H 8200 4850 50  0001 L CNN
+	1    7850 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 1500 9450 4850
+Wire Wire Line
+	8900 4850 9450 4850
+Wire Wire Line
+	8350 4850 8700 4850
+Wire Wire Line
+	7050 4650 7100 4650
+Wire Wire Line
+	7100 4650 7100 4850
+Wire Wire Line
+	7100 4850 7350 4850
+Connection ~ 7100 4650
+Wire Wire Line
+	7100 4650 7350 4650
 $EndSCHEMATC
