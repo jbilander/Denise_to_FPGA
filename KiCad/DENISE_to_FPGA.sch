@@ -102,8 +102,6 @@ Text GLabel 4800 3750 2    50   Input ~ 0
 G3
 Text GLabel 4800 3850 2    50   Input ~ 0
 G2
-Text GLabel 4800 3450 2    50   Output ~ 0
-PIXELSW
 Text GLabel 4800 3000 2    50   Input ~ 0
 GND
 Text GLabel 7400 2600 0    50   Input ~ 0
@@ -472,33 +470,9 @@ Wire Wire Line
 	10450 4500 10350 4500
 Text GLabel 10050 4500 0    50   Input ~ 0
 GND
-NoConn ~ 3700 1800
-NoConn ~ 3700 1900
-NoConn ~ 3700 2000
-NoConn ~ 3700 2100
-NoConn ~ 3700 2200
-NoConn ~ 3700 2300
-NoConn ~ 3700 2400
 NoConn ~ 3700 2550
 NoConn ~ 3700 2650
-NoConn ~ 3700 2800
-NoConn ~ 3700 2900
-NoConn ~ 3700 3000
-NoConn ~ 3700 3100
-NoConn ~ 3700 3200
-NoConn ~ 3700 3300
-NoConn ~ 3700 3400
-NoConn ~ 3700 3500
 NoConn ~ 3700 3650
-NoConn ~ 4800 1800
-NoConn ~ 4800 1900
-NoConn ~ 4800 2000
-NoConn ~ 4800 2100
-NoConn ~ 4800 2200
-NoConn ~ 4800 2300
-NoConn ~ 4800 2400
-NoConn ~ 4800 2500
-NoConn ~ 4800 2600
 NoConn ~ 4800 2750
 NoConn ~ 4800 2850
 NoConn ~ 4800 3150
@@ -619,4 +593,53 @@ Wire Wire Line
 	9450 2000 9450 1500
 Wire Wire Line
 	9050 2000 9450 2000
+Text GLabel 3700 3500 0    50   Input ~ 0
+RGA1
+Text GLabel 3700 3400 0    50   Input ~ 0
+RGA2
+Text GLabel 3700 3300 0    50   Input ~ 0
+RGA3
+Text GLabel 3700 3200 0    50   Input ~ 0
+RGA4
+Text GLabel 3700 3100 0    50   Input ~ 0
+RGA5
+Text GLabel 3700 3000 0    50   Input ~ 0
+RGA6
+Text GLabel 3700 2900 0    50   Input ~ 0
+RGA7
+Text GLabel 3700 2800 0    50   Input ~ 0
+RGA8
+Text GLabel 3700 2400 0    50   Input ~ 0
+D0
+Text GLabel 3700 2300 0    50   Input ~ 0
+D1
+Text GLabel 3700 2200 0    50   Input ~ 0
+D2
+Text GLabel 3700 2100 0    50   Input ~ 0
+D3
+Text GLabel 3700 2000 0    50   Input ~ 0
+D4
+Text GLabel 3700 1900 0    50   Input ~ 0
+D5
+Text GLabel 3700 1800 0    50   Input ~ 0
+D6
+Text GLabel 4800 1800 2    50   Input ~ 0
+D7
+Text GLabel 4800 1900 2    50   Input ~ 0
+D8
+Text GLabel 4800 2000 2    50   Input ~ 0
+D9
+Text GLabel 4800 2100 2    50   Input ~ 0
+D10
+Text GLabel 4800 2200 2    50   Input ~ 0
+D11
+Text GLabel 4800 2300 2    50   Input ~ 0
+D12
+Text GLabel 4800 2400 2    50   Input ~ 0
+D13
+Text GLabel 4800 2500 2    50   Input ~ 0
+D14
+Text GLabel 4800 2600 2    50   Input ~ 0
+D15
+NoConn ~ 4800 3450
 $EndSCHEMATC
