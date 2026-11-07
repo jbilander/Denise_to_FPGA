@@ -337,10 +337,6 @@ Text GLabel 7400 3800 0    50   Input ~ 0
 GND
 Text GLabel 7400 4400 0    50   Input ~ 0
 GND
-Text GLabel 7400 4300 0    50   Input ~ 0
-PIXELSW
-Text GLabel 8600 4300 2    50   Output ~ 0
-PIXELSW_3V3
 Text GLabel 10450 3300 0    50   Input ~ 0
 G3_3V3
 Text GLabel 10450 3400 0    50   Input ~ 0
@@ -355,30 +351,12 @@ Wire Wire Line
 	10050 2400 10450 2400
 Text GLabel 10450 2300 0    50   Input ~ 0
 CSYNC_3V3
-Text GLabel 10450 2100 0    50   Input ~ 0
-PIXELSW_3V3
 Text GLabel 10050 1800 0    50   Input ~ 0
 GND
 Wire Wire Line
 	10050 1800 10450 1800
 Text GLabel 10650 5600 3    50   Input ~ 0
 GND
-Text GLabel 7400 4500 0    50   Input ~ 0
-HSYNC
-Text GLabel 8600 4500 2    50   Output ~ 0
-HSYNC_3V3
-Text GLabel 10450 1900 0    50   Input ~ 0
-HSYNC_3V3
-Text GLabel 7400 4600 0    50   Input ~ 0
-VSYNC
-Text GLabel 8600 4600 2    50   Output ~ 0
-VSYNC_3V3
-Text GLabel 10450 1700 0    50   Input ~ 0
-VSYNC_3V3
-Text GLabel 6400 2400 0    50   Input ~ 0
-HSYNC
-Text GLabel 6400 2300 0    50   Input ~ 0
-VSYNC
 $Comp
 L Connector_Generic:Conn_01x02 J1
 U 1 1 64FC8747
