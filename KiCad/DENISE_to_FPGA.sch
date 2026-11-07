@@ -593,21 +593,21 @@ Wire Wire Line
 	9450 2000 9450 1500
 Wire Wire Line
 	9050 2000 9450 2000
-Text GLabel 3700 3500 0    50   Input ~ 0
+Text GLabel 3300 3500 0    50   Input ~ 0
 RGA1
-Text GLabel 3700 3400 0    50   Input ~ 0
+Text GLabel 3300 3400 0    50   Input ~ 0
 RGA2
-Text GLabel 3700 3300 0    50   Input ~ 0
+Text GLabel 3300 3300 0    50   Input ~ 0
 RGA3
-Text GLabel 3700 3200 0    50   Input ~ 0
+Text GLabel 3300 3200 0    50   Input ~ 0
 RGA4
-Text GLabel 3700 3100 0    50   Input ~ 0
+Text GLabel 3300 3100 0    50   Input ~ 0
 RGA5
-Text GLabel 3700 3000 0    50   Input ~ 0
+Text GLabel 3300 3000 0    50   Input ~ 0
 RGA6
-Text GLabel 3700 2900 0    50   Input ~ 0
+Text GLabel 3300 2900 0    50   Input ~ 0
 RGA7
-Text GLabel 3700 2800 0    50   Input ~ 0
+Text GLabel 3300 2800 0    50   Input ~ 0
 RGA8
 Text GLabel 3700 2400 0    50   Input ~ 0
 D0
@@ -642,4 +642,26 @@ D14
 Text GLabel 4800 2600 2    50   Input ~ 0
 D15
 NoConn ~ 4800 3450
+$Comp
+L Device:R_Pack04 RN1
+U 1 1 6AF57254
+P 3500 3300
+F 0 "RN1" V 3450 3800 50  0000 L CNN
+F 1 "330" V 3350 3800 50  0000 L CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 3775 3300 50  0001 C CNN
+F 3 "~" H 3500 3300 50  0001 C CNN
+	1    3500 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN2
+U 1 1 6AF6D823
+P 3500 2900
+F 0 "RN2" V 3450 3400 50  0000 L CNN
+F 1 "330" V 3350 3400 50  0000 L CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 3775 2900 50  0001 C CNN
+F 3 "~" H 3500 2900 50  0001 C CNN
+	1    3500 2900
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
