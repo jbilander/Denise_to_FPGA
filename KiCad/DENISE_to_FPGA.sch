@@ -68,89 +68,89 @@ GND
 $Comp
 L DENISE_to_FPGA:Denise U4
 U 1 1 623BE5C5
-P 4250 3100
-F 0 "U4" H 4250 4665 50  0000 C CNN
-F 1 "Denise_MB_PinHeader" H 4250 4574 50  0000 C CNN
-F 2 "DENISE_to_FPGA:DIP-48_W15.24mm_Socket_LongPads" H 4200 1600 50  0001 C CNN
-F 3 "" H 4200 1600 50  0001 C CNN
-	1    4250 3100
+P 6700 4350
+F 0 "U4" H 6700 5915 50  0000 C CNN
+F 1 "Denise_MB_PinHeader" H 6700 5824 50  0000 C CNN
+F 2 "DENISE_to_FPGA:DIP-48_W15.24mm_Socket_LongPads" H 6650 2850 50  0001 C CNN
+F 3 "" H 6650 2850 50  0001 C CNN
+	1    6700 4350
 	1    0    0    -1  
 $EndComp
-Text GLabel 3700 3800 0    50   Input ~ 0
+Text GLabel 6150 5050 0    50   Input ~ 0
 VCC
-Text GLabel 3700 4050 0    50   Input ~ 0
+Text GLabel 6150 5300 0    50   Input ~ 0
 R1
-Text GLabel 3700 3950 0    50   Input ~ 0
+Text GLabel 6150 5200 0    50   Input ~ 0
 R0
-Text GLabel 3700 4250 0    50   Input ~ 0
+Text GLabel 6150 5500 0    50   Input ~ 0
 R3
-Text GLabel 3700 4150 0    50   Input ~ 0
+Text GLabel 6150 5400 0    50   Input ~ 0
 R2
-Text GLabel 3700 4350 0    50   Input ~ 0
+Text GLabel 6150 5600 0    50   Input ~ 0
 B0
-Text GLabel 4800 3950 2    50   Input ~ 0
+Text GLabel 7250 5200 2    50   Input ~ 0
 G1
-Text GLabel 4800 4050 2    50   Input ~ 0
+Text GLabel 7250 5300 2    50   Input ~ 0
 G0
-Text GLabel 4800 4250 2    50   Input ~ 0
+Text GLabel 7250 5500 2    50   Input ~ 0
 B2
-Text GLabel 4800 4150 2    50   Input ~ 0
+Text GLabel 7250 5400 2    50   Input ~ 0
 B3
-Text GLabel 4800 4350 2    50   Input ~ 0
+Text GLabel 7250 5600 2    50   Input ~ 0
 B1
-Text GLabel 4800 3750 2    50   Input ~ 0
+Text GLabel 7250 5000 2    50   Input ~ 0
 G3
-Text GLabel 4800 3850 2    50   Input ~ 0
+Text GLabel 7250 5100 2    50   Input ~ 0
 G2
-Text GLabel 4800 3000 2    50   Input ~ 0
+Text GLabel 7250 4250 2    50   Input ~ 0
 GND
-Text GLabel 7400 2600 0    50   Input ~ 0
+Text GLabel 8100 3250 0    50   Input ~ 0
 R1
-Text GLabel 7400 2500 0    50   Input ~ 0
+Text GLabel 8100 3150 0    50   Input ~ 0
 R0
-Text GLabel 7400 2900 0    50   Input ~ 0
+Text GLabel 8100 3550 0    50   Input ~ 0
 R3
-Text GLabel 7400 2800 0    50   Input ~ 0
+Text GLabel 8100 3450 0    50   Input ~ 0
 R2
-Text GLabel 7400 3600 0    50   Input ~ 0
+Text GLabel 8100 4250 0    50   Input ~ 0
 B0
-Text GLabel 7400 3200 0    50   Input ~ 0
+Text GLabel 8100 3850 0    50   Input ~ 0
 G1
-Text GLabel 7400 3100 0    50   Input ~ 0
+Text GLabel 8100 3750 0    50   Input ~ 0
 G0
-Text GLabel 7400 3900 0    50   Input ~ 0
+Text GLabel 8100 4550 0    50   Input ~ 0
 B2
-Text GLabel 7400 4000 0    50   Input ~ 0
+Text GLabel 8100 4650 0    50   Input ~ 0
 B3
-Text GLabel 7400 3700 0    50   Input ~ 0
+Text GLabel 8100 4350 0    50   Input ~ 0
 B1
-Text GLabel 7400 3500 0    50   Input ~ 0
+Text GLabel 8100 4150 0    50   Input ~ 0
 G3
-Text GLabel 7400 3400 0    50   Input ~ 0
+Text GLabel 8100 4050 0    50   Input ~ 0
 G2
-Text GLabel 8600 3600 2    50   Output ~ 0
+Text GLabel 9300 4250 2    50   Output ~ 0
 B0_3V3
-Text GLabel 8600 3900 2    50   Output ~ 0
+Text GLabel 9300 4550 2    50   Output ~ 0
 B2_3V3
-Text GLabel 8600 3700 2    50   Output ~ 0
+Text GLabel 9300 4350 2    50   Output ~ 0
 B1_3V3
-Text GLabel 8600 4000 2    50   Output ~ 0
+Text GLabel 9300 4650 2    50   Output ~ 0
 B3_3V3
-Text GLabel 8600 2500 2    50   Output ~ 0
+Text GLabel 9300 3150 2    50   Output ~ 0
 R0_3V3
-Text GLabel 8600 3500 2    50   Output ~ 0
+Text GLabel 9300 4150 2    50   Output ~ 0
 G3_3V3
-Text GLabel 8600 2600 2    50   Output ~ 0
+Text GLabel 9300 3250 2    50   Output ~ 0
 R1_3V3
-Text GLabel 8600 3400 2    50   Output ~ 0
+Text GLabel 9300 4050 2    50   Output ~ 0
 G2_3V3
-Text GLabel 8600 3200 2    50   Output ~ 0
+Text GLabel 9300 3850 2    50   Output ~ 0
 G1_3V3
-Text GLabel 8600 3100 2    50   Output ~ 0
+Text GLabel 9300 3750 2    50   Output ~ 0
 G0_3V3
-Text GLabel 8600 2800 2    50   Output ~ 0
+Text GLabel 9300 3450 2    50   Output ~ 0
 R2_3V3
-Text GLabel 8600 2900 2    50   Output ~ 0
+Text GLabel 9300 3550 2    50   Output ~ 0
 R3_3V3
 $Comp
 L DENISE_to_FPGA:LM1117-3.3 U1
@@ -271,13 +271,13 @@ Wire Wire Line
 Wire Wire Line
 	7900 850  7600 850 
 Connection ~ 7600 850 
-Text GLabel 7400 4100 0    50   Input ~ 0
+Text GLabel 8100 4750 0    50   Input ~ 0
 3V3
-Text GLabel 8600 3000 2    50   Input ~ 0
+Text GLabel 9300 3650 2    50   Input ~ 0
 3V3
-Text GLabel 7400 2700 0    50   Input ~ 0
+Text GLabel 8100 3350 0    50   Input ~ 0
 GND
-Text GLabel 7400 3300 0    50   Input ~ 0
+Text GLabel 8100 3950 0    50   Input ~ 0
 GND
 $Comp
 L Connector_Generic_MountingPin:Conn_01x40_MountingPin J3
@@ -329,11 +329,11 @@ Text GLabel 10450 2600 0    50   Input ~ 0
 B2_3V3
 Text GLabel 10450 2500 0    50   Input ~ 0
 B3_3V3
-Text GLabel 7400 3000 0    50   Input ~ 0
+Text GLabel 8100 3650 0    50   Input ~ 0
 3V3
-Text GLabel 7400 3800 0    50   Input ~ 0
+Text GLabel 8100 4450 0    50   Input ~ 0
 GND
-Text GLabel 7400 4400 0    50   Input ~ 0
+Text GLabel 8100 5050 0    50   Input ~ 0
 GND
 Text GLabel 10450 3300 0    50   Input ~ 0
 G3_3V3
@@ -343,7 +343,7 @@ Text GLabel 10450 3500 0    50   Input ~ 0
 G1_3V3
 Text GLabel 10450 3600 0    50   Input ~ 0
 G0_3V3
-Text GLabel 8600 4100 2    50   Input ~ 0
+Text GLabel 9300 4750 2    50   Input ~ 0
 3V3
 Wire Wire Line
 	10050 2400 10450 2400
@@ -470,50 +470,50 @@ Wire Wire Line
 	10450 4500 10350 4500
 Text GLabel 10050 4500 0    50   Input ~ 0
 GND
-NoConn ~ 3700 2550
-NoConn ~ 3700 2650
-NoConn ~ 3700 3650
-NoConn ~ 4800 2750
-NoConn ~ 4800 2850
-NoConn ~ 4800 3150
-Text GLabel 4800 3250 2    50   Input ~ 0
+NoConn ~ 6150 3800
+NoConn ~ 6150 3900
+NoConn ~ 6150 4900
+NoConn ~ 7250 4000
+NoConn ~ 7250 4100
+NoConn ~ 7250 4400
+Text GLabel 7250 4500 2    50   Input ~ 0
 C7M
-Text GLabel 4800 3350 2    50   Input ~ 0
+Text GLabel 7250 4600 2    50   Input ~ 0
 CDAC
 $Comp
 L DENISE_to_FPGA:74LVC162244A U2
 U 1 1 66EA62DE
-P 8000 3600
-F 0 "U2" H 8000 4965 50  0000 C CNN
-F 1 "74LVC162244A" H 8000 4874 50  0000 C CNN
-F 2 "Package_SO:TSSOP-48_6.1x12.5mm_P0.5mm" H 8450 4800 50  0001 L CNN
-F 3 "" H 8450 4700 50  0001 L CNN
-	1    8000 3600
+P 8700 4250
+F 0 "U2" H 8700 5615 50  0000 C CNN
+F 1 "74LVC162244A" H 8700 5524 50  0000 C CNN
+F 2 "Package_SO:TSSOP-48_6.1x12.5mm_P0.5mm" H 9150 5450 50  0001 L CNN
+F 3 "" H 9150 5350 50  0001 L CNN
+	1    8700 4250
 	-1   0    0    1   
 $EndComp
-Text GLabel 7400 2400 0    50   Input ~ 0
+Text GLabel 8100 3050 0    50   Input ~ 0
 GND
-Text GLabel 7400 4700 0    50   Input ~ 0
+Text GLabel 8100 5350 0    50   Input ~ 0
 GND
-Text GLabel 8600 4700 2    50   Input ~ 0
+Text GLabel 9300 5350 2    50   Input ~ 0
 GND
-Text GLabel 8600 4400 2    50   Input ~ 0
+Text GLabel 9300 5050 2    50   Input ~ 0
 GND
-Text GLabel 8600 3800 2    50   Input ~ 0
+Text GLabel 9300 4450 2    50   Input ~ 0
 GND
-Text GLabel 8600 3300 2    50   Input ~ 0
+Text GLabel 9300 3950 2    50   Input ~ 0
 GND
-Text GLabel 8600 2700 2    50   Input ~ 0
+Text GLabel 9300 3350 2    50   Input ~ 0
 GND
-Text GLabel 8600 2400 2    50   Input ~ 0
+Text GLabel 9300 3050 2    50   Input ~ 0
 GND
 Text GLabel 6400 1950 0    50   Input ~ 0
 CDAC
-Text GLabel 4800 3550 2    50   Input ~ 0
+Text GLabel 7250 4800 2    50   Input ~ 0
 CSYNC
-Text GLabel 7400 4200 0    50   Input ~ 0
+Text GLabel 8100 4850 0    50   Input ~ 0
 CSYNC
-Text GLabel 8600 4200 2    50   Output ~ 0
+Text GLabel 9300 4850 2    50   Output ~ 0
 CSYNC_3V3
 Text GLabel 6400 1850 0    50   Input ~ 0
 CSYNC
@@ -593,75 +593,142 @@ Wire Wire Line
 	9450 2000 9450 1500
 Wire Wire Line
 	9050 2000 9450 2000
-Text GLabel 3300 3500 0    50   Input ~ 0
+Text GLabel 5750 4750 0    50   Input ~ 0
 RGA1
-Text GLabel 3300 3400 0    50   Input ~ 0
+Text GLabel 5750 4650 0    50   Input ~ 0
 RGA2
-Text GLabel 3300 3300 0    50   Input ~ 0
+Text GLabel 5750 4550 0    50   Input ~ 0
 RGA3
-Text GLabel 3300 3200 0    50   Input ~ 0
+Text GLabel 5750 4450 0    50   Input ~ 0
 RGA4
-Text GLabel 3300 3100 0    50   Input ~ 0
+Text GLabel 5750 4350 0    50   Input ~ 0
 RGA5
-Text GLabel 3300 3000 0    50   Input ~ 0
+Text GLabel 5750 4250 0    50   Input ~ 0
 RGA6
-Text GLabel 3300 2900 0    50   Input ~ 0
+Text GLabel 5750 4150 0    50   Input ~ 0
 RGA7
-Text GLabel 3300 2800 0    50   Input ~ 0
+Text GLabel 5750 4050 0    50   Input ~ 0
 RGA8
-Text GLabel 3700 2400 0    50   Input ~ 0
+Text GLabel 6150 3650 0    50   Input ~ 0
 D0
-Text GLabel 3700 2300 0    50   Input ~ 0
+Text GLabel 6150 3550 0    50   Input ~ 0
 D1
-Text GLabel 3700 2200 0    50   Input ~ 0
+Text GLabel 6150 3450 0    50   Input ~ 0
 D2
-Text GLabel 3700 2100 0    50   Input ~ 0
+Text GLabel 6150 3350 0    50   Input ~ 0
 D3
-Text GLabel 3700 2000 0    50   Input ~ 0
+Text GLabel 6150 3250 0    50   Input ~ 0
 D4
-Text GLabel 3700 1900 0    50   Input ~ 0
+Text GLabel 6150 3150 0    50   Input ~ 0
 D5
-Text GLabel 3700 1800 0    50   Input ~ 0
+Text GLabel 6150 3050 0    50   Input ~ 0
 D6
-Text GLabel 4800 1800 2    50   Input ~ 0
+Text GLabel 7250 3050 2    50   Input ~ 0
 D7
-Text GLabel 4800 1900 2    50   Input ~ 0
+Text GLabel 7250 3150 2    50   Input ~ 0
 D8
-Text GLabel 4800 2000 2    50   Input ~ 0
+Text GLabel 7250 3250 2    50   Input ~ 0
 D9
-Text GLabel 4800 2100 2    50   Input ~ 0
+Text GLabel 7250 3350 2    50   Input ~ 0
 D10
-Text GLabel 4800 2200 2    50   Input ~ 0
+Text GLabel 7250 3450 2    50   Input ~ 0
 D11
-Text GLabel 4800 2300 2    50   Input ~ 0
+Text GLabel 7250 3550 2    50   Input ~ 0
 D12
-Text GLabel 4800 2400 2    50   Input ~ 0
+Text GLabel 7250 3650 2    50   Input ~ 0
 D13
-Text GLabel 4800 2500 2    50   Input ~ 0
+Text GLabel 7250 3750 2    50   Input ~ 0
 D14
-Text GLabel 4800 2600 2    50   Input ~ 0
+Text GLabel 7250 3850 2    50   Input ~ 0
 D15
-NoConn ~ 4800 3450
+NoConn ~ 7250 4700
 $Comp
 L Device:R_Pack04 RN1
 U 1 1 6AF57254
-P 3500 3300
-F 0 "RN1" V 3450 3800 50  0000 L CNN
-F 1 "330" V 3350 3800 50  0000 L CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 3775 3300 50  0001 C CNN
-F 3 "~" H 3500 3300 50  0001 C CNN
-	1    3500 3300
+P 5950 4550
+F 0 "RN1" V 5900 5050 50  0000 L CNN
+F 1 "330" V 5800 5050 50  0000 L CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 6225 4550 50  0001 C CNN
+F 3 "~" H 5950 4550 50  0001 C CNN
+	1    5950 4550
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_Pack04 RN2
 U 1 1 6AF6D823
-P 3500 2900
-F 0 "RN2" V 3450 3400 50  0000 L CNN
-F 1 "330" V 3350 3400 50  0000 L CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 3775 2900 50  0001 C CNN
-F 3 "~" H 3500 2900 50  0001 C CNN
-	1    3500 2900
+P 5950 4150
+F 0 "RN2" V 5900 4650 50  0000 L CNN
+F 1 "330" V 5800 4650 50  0000 L CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 6225 4150 50  0001 C CNN
+F 3 "~" H 5950 4150 50  0001 C CNN
+	1    5950 4150
 	0    -1   -1   0   
 $EndComp
+$Comp
+L DENISE_to_FPGA:SC2212 U5
+U 1 1 6AF94D9C
+P 2950 5500
+F 0 "U5" V 3100 5450 50  0000 L CNN
+F 1 "SC2212" V 2950 5350 50  0000 L CNN
+F 2 "DENISE_to_FPGA:QFN40P1000X1000X90-81N-D_handsolder" H 4150 7150 50  0001 L CNN
+F 3 "" H 4150 7050 50  0001 L CNN
+	1    2950 5500
+	0    1    1    0   
+$EndComp
+Text GLabel 4800 4550 2    50   Input ~ 0
+GND
+Text GLabel 4800 4950 2    50   Input ~ 0
+RGA1
+Text GLabel 4800 4850 2    50   Input ~ 0
+RGA2
+Text GLabel 4800 4750 2    50   Input ~ 0
+RGA3
+Text GLabel 4800 4650 2    50   Input ~ 0
+RGA4
+Text GLabel 3800 4250 1    50   Input ~ 0
+RGA5
+Text GLabel 3700 4250 1    50   Input ~ 0
+RGA6
+Text GLabel 3600 4250 1    50   Input ~ 0
+RGA7
+Text GLabel 3500 4250 1    50   Input ~ 0
+RGA8
+Text GLabel 3400 4250 1    50   Input ~ 0
+3V3
+Text GLabel 3300 4250 1    50   Input ~ 0
+D0
+Text GLabel 3200 4250 1    50   Input ~ 0
+D1
+Text GLabel 3100 4250 1    50   Input ~ 0
+D2
+Text GLabel 3000 4250 1    50   Input ~ 0
+D3
+Text GLabel 2800 4250 1    50   Input ~ 0
+D4
+Text GLabel 2900 4250 1    50   Input ~ 0
+1V1
+Text GLabel 2700 4250 1    50   Input ~ 0
+D5
+Text GLabel 2600 4250 1    50   Input ~ 0
+D6
+Text GLabel 2500 4250 1    50   Input ~ 0
+D7
+Text GLabel 2400 4250 1    50   Input ~ 0
+3V3
+Text GLabel 2300 4250 1    50   Input ~ 0
+D8
+Text GLabel 2200 4250 1    50   Input ~ 0
+D9
+Text GLabel 2100 4250 1    50   Input ~ 0
+D10
+Text GLabel 2000 4250 1    50   Input ~ 0
+D11
+Text GLabel 1900 4250 1    50   Input ~ 0
+D12
+Text GLabel 1100 4550 0    50   Input ~ 0
+D13
+Text GLabel 1100 4650 0    50   Input ~ 0
+D14
+Text GLabel 1100 4750 0    50   Input ~ 0
+D15
 $EndSCHEMATC
