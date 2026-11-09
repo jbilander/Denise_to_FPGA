@@ -68,41 +68,41 @@ GND
 $Comp
 L DENISE_to_FPGA:Denise U4
 U 1 1 623BE5C5
-P 6700 4350
-F 0 "U4" H 6700 5915 50  0000 C CNN
-F 1 "Denise_MB_PinHeader" H 6700 5824 50  0000 C CNN
-F 2 "DENISE_to_FPGA:DIP-48_W15.24mm_Socket_LongPads" H 6650 2850 50  0001 C CNN
-F 3 "" H 6650 2850 50  0001 C CNN
-	1    6700 4350
+P 6200 3950
+F 0 "U4" H 6200 5515 50  0000 C CNN
+F 1 "Denise_MB_PinHeader" H 6200 5424 50  0000 C CNN
+F 2 "DENISE_to_FPGA:DIP-48_W15.24mm_Socket_LongPads" H 6150 2450 50  0001 C CNN
+F 3 "" H 6150 2450 50  0001 C CNN
+	1    6200 3950
 	1    0    0    -1  
 $EndComp
-Text GLabel 6150 5050 0    50   Input ~ 0
+Text GLabel 5650 4650 0    50   Input ~ 0
 VCC
-Text GLabel 6150 5300 0    50   Input ~ 0
+Text GLabel 5650 4900 0    50   Input ~ 0
 R1
-Text GLabel 6150 5200 0    50   Input ~ 0
+Text GLabel 5650 4800 0    50   Input ~ 0
 R0
-Text GLabel 6150 5500 0    50   Input ~ 0
+Text GLabel 5650 5100 0    50   Input ~ 0
 R3
-Text GLabel 6150 5400 0    50   Input ~ 0
+Text GLabel 5650 5000 0    50   Input ~ 0
 R2
-Text GLabel 6150 5600 0    50   Input ~ 0
+Text GLabel 5650 5200 0    50   Input ~ 0
 B0
-Text GLabel 7250 5200 2    50   Input ~ 0
+Text GLabel 6750 4800 2    50   Input ~ 0
 G1
-Text GLabel 7250 5300 2    50   Input ~ 0
+Text GLabel 6750 4900 2    50   Input ~ 0
 G0
-Text GLabel 7250 5500 2    50   Input ~ 0
+Text GLabel 6750 5100 2    50   Input ~ 0
 B2
-Text GLabel 7250 5400 2    50   Input ~ 0
+Text GLabel 6750 5000 2    50   Input ~ 0
 B3
-Text GLabel 7250 5600 2    50   Input ~ 0
+Text GLabel 6750 5200 2    50   Input ~ 0
 B1
-Text GLabel 7250 5000 2    50   Input ~ 0
+Text GLabel 6750 4600 2    50   Input ~ 0
 G3
-Text GLabel 7250 5100 2    50   Input ~ 0
+Text GLabel 6750 4700 2    50   Input ~ 0
 G2
-Text GLabel 7250 4250 2    50   Input ~ 0
+Text GLabel 6750 3850 2    50   Input ~ 0
 GND
 Text GLabel 8100 3250 0    50   Input ~ 0
 R1
@@ -372,12 +372,12 @@ Connection ~ 7900 1200
 $Comp
 L Connector_Generic:Conn_01x02 J2
 U 1 1 64FF4A26
-P 6600 2300
-F 0 "J2" H 6680 2246 50  0000 L CNN
-F 1 "Conn_01x02" H 6680 2201 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 6600 2300 50  0001 C CNN
-F 3 "~" H 6600 2300 50  0001 C CNN
-	1    6600 2300
+P 5650 1850
+F 0 "J2" H 5730 1796 50  0000 L CNN
+F 1 "Conn_01x02" H 5730 1751 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 5650 1850 50  0001 C CNN
+F 3 "~" H 5650 1850 50  0001 C CNN
+	1    5650 1850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -470,15 +470,15 @@ Wire Wire Line
 	10450 4500 10350 4500
 Text GLabel 10050 4500 0    50   Input ~ 0
 GND
-NoConn ~ 6150 3800
-NoConn ~ 6150 3900
-NoConn ~ 6150 4900
-NoConn ~ 7250 4000
-NoConn ~ 7250 4100
-NoConn ~ 7250 4400
-Text GLabel 7250 4500 2    50   Input ~ 0
+NoConn ~ 5650 3400
+NoConn ~ 5650 3500
+NoConn ~ 5650 4500
+NoConn ~ 6750 3600
+NoConn ~ 6750 3700
+NoConn ~ 6750 4000
+Text GLabel 6750 4100 2    50   Input ~ 0
 C7M
-Text GLabel 7250 4600 2    50   Input ~ 0
+Text GLabel 6750 4200 2    50   Input ~ 0
 CDAC
 $Comp
 L DENISE_to_FPGA:74LVC162244A U2
@@ -509,7 +509,7 @@ Text GLabel 9300 3050 2    50   Input ~ 0
 GND
 Text GLabel 6400 1950 0    50   Input ~ 0
 CDAC
-Text GLabel 7250 4800 2    50   Input ~ 0
+Text GLabel 6750 4400 2    50   Input ~ 0
 CSYNC
 Text GLabel 8100 4850 0    50   Input ~ 0
 CSYNC
@@ -593,75 +593,75 @@ Wire Wire Line
 	9450 2000 9450 1500
 Wire Wire Line
 	9050 2000 9450 2000
-Text GLabel 5750 4750 0    50   Input ~ 0
+Text GLabel 4800 4050 0    50   Output ~ 0
 RGA1
-Text GLabel 5750 4650 0    50   Input ~ 0
+Text GLabel 4800 3950 0    50   Output ~ 0
 RGA2
-Text GLabel 5750 4550 0    50   Input ~ 0
+Text GLabel 4800 3850 0    50   Output ~ 0
 RGA3
-Text GLabel 5750 4450 0    50   Input ~ 0
+Text GLabel 4800 3750 0    50   Output ~ 0
 RGA4
-Text GLabel 5750 4350 0    50   Input ~ 0
+Text GLabel 4800 3650 0    50   Output ~ 0
 RGA5
-Text GLabel 5750 4250 0    50   Input ~ 0
+Text GLabel 4800 3550 0    50   Output ~ 0
 RGA6
-Text GLabel 5750 4150 0    50   Input ~ 0
+Text GLabel 4800 3450 0    50   Output ~ 0
 RGA7
-Text GLabel 5750 4050 0    50   Input ~ 0
+Text GLabel 4800 3350 0    50   Output ~ 0
 RGA8
-Text GLabel 6150 3650 0    50   Input ~ 0
+Text GLabel 4800 3250 0    50   Output ~ 0
 D0
-Text GLabel 6150 3550 0    50   Input ~ 0
+Text GLabel 4800 3150 0    50   Output ~ 0
 D1
-Text GLabel 6150 3450 0    50   Input ~ 0
+Text GLabel 4800 3050 0    50   Output ~ 0
 D2
-Text GLabel 6150 3350 0    50   Input ~ 0
+Text GLabel 4800 2950 0    50   Output ~ 0
 D3
-Text GLabel 6150 3250 0    50   Input ~ 0
+Text GLabel 4800 2850 0    50   Output ~ 0
 D4
-Text GLabel 6150 3150 0    50   Input ~ 0
+Text GLabel 4800 2750 0    50   Output ~ 0
 D5
-Text GLabel 6150 3050 0    50   Input ~ 0
+Text GLabel 4800 2650 0    50   Output ~ 0
 D6
-Text GLabel 7250 3050 2    50   Input ~ 0
+Text GLabel 6750 2650 2    50   Input ~ 0
 D7
-Text GLabel 7250 3150 2    50   Input ~ 0
+Text GLabel 6750 2750 2    50   Input ~ 0
 D8
-Text GLabel 7250 3250 2    50   Input ~ 0
+Text GLabel 6750 2850 2    50   Input ~ 0
 D9
-Text GLabel 7250 3350 2    50   Input ~ 0
+Text GLabel 6750 2950 2    50   Input ~ 0
 D10
-Text GLabel 7250 3450 2    50   Input ~ 0
+Text GLabel 6750 3050 2    50   Input ~ 0
 D11
-Text GLabel 7250 3550 2    50   Input ~ 0
+Text GLabel 6750 3150 2    50   Input ~ 0
 D12
-Text GLabel 7250 3650 2    50   Input ~ 0
+Text GLabel 6750 3250 2    50   Input ~ 0
 D13
-Text GLabel 7250 3750 2    50   Input ~ 0
+Text GLabel 6750 3350 2    50   Input ~ 0
 D14
-Text GLabel 7250 3850 2    50   Input ~ 0
-D15
-NoConn ~ 7250 4700
+Text GLabel 6750 3450 2    50   Output ~ 0
+DQ15
+NoConn ~ 6750 4300
 $Comp
 L Device:R_Pack04 RN1
 U 1 1 6AF57254
-P 5950 4550
-F 0 "RN1" V 5900 5050 50  0000 L CNN
-F 1 "330" V 5800 5050 50  0000 L CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 6225 4550 50  0001 C CNN
-F 3 "~" H 5950 4550 50  0001 C CNN
-	1    5950 4550
+P 5000 3950
+F 0 "RN1" V 4950 4450 50  0000 L CNN
+F 1 "330" V 4850 4450 50  0000 L CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 5275 3950 50  0001 C CNN
+F 3 "~" H 5000 3950 50  0001 C CNN
+	1    5000 3950
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_Pack04 RN2
 U 1 1 6AF6D823
-P 5950 4150
-F 0 "RN2" V 5900 4650 50  0000 L CNN
-F 1 "330" V 5800 4650 50  0000 L CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 6225 4150 50  0001 C CNN
-F 3 "~" H 5950 4150 50  0001 C CNN
-	1    5950 4150
+P 5000 3550
+F 0 "RN2" V 4950 4050 50  0000 L CNN
+F 1 "330" V 4850 4050 50  0000 L CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 5275 3550 50  0001 C CNN
+F 3 "~" H 5000 3550 50  0001 C CNN
+	1    5000 3550
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -731,4 +731,124 @@ Text GLabel 1100 4650 0    50   Input ~ 0
 D14
 Text GLabel 1100 4750 0    50   Input ~ 0
 D15
+$Comp
+L Device:R_Pack04 RN3
+U 1 1 6B01EE26
+P 5000 3150
+F 0 "RN3" V 4950 3650 50  0000 L CNN
+F 1 "330" V 4850 3650 50  0000 L CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 5275 3150 50  0001 C CNN
+F 3 "~" H 5000 3150 50  0001 C CNN
+	1    5000 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN4
+U 1 1 6B02F82D
+P 5000 2750
+F 0 "RN4" V 4950 3250 50  0000 L CNN
+F 1 "330" V 4850 3250 50  0000 L CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 5275 2750 50  0001 C CNN
+F 3 "~" H 5000 2750 50  0001 C CNN
+	1    5000 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5650 2650 5200 2650
+Wire Wire Line
+	5650 2750 5200 2750
+Wire Wire Line
+	5650 2850 5200 2850
+Text Label 5350 2650 0    50   ~ 0
+DQ6
+Text Label 5350 2750 0    50   ~ 0
+DQ5
+Text Label 5350 2850 0    50   ~ 0
+DQ4
+Wire Wire Line
+	5650 2950 5200 2950
+Wire Wire Line
+	5650 3050 5200 3050
+Wire Wire Line
+	5650 3150 5200 3150
+Wire Wire Line
+	5650 3250 5200 3250
+Text Label 5350 2950 0    50   ~ 0
+DQ3
+Text Label 5350 3050 0    50   ~ 0
+DQ2
+Text Label 5350 3150 0    50   ~ 0
+DQ1
+Text Label 5350 3250 0    50   ~ 0
+DQ0
+Wire Wire Line
+	5650 3650 5600 3650
+Wire Wire Line
+	5600 3650 5600 3350
+Wire Wire Line
+	5600 3350 5200 3350
+Wire Wire Line
+	5650 3750 5550 3750
+Wire Wire Line
+	5550 3750 5550 3450
+Wire Wire Line
+	5550 3450 5200 3450
+Wire Wire Line
+	5650 3850 5500 3850
+Wire Wire Line
+	5500 3850 5500 3550
+Wire Wire Line
+	5500 3550 5200 3550
+Wire Wire Line
+	5650 3950 5450 3950
+Wire Wire Line
+	5450 3950 5450 3650
+Wire Wire Line
+	5450 3650 5200 3650
+Wire Wire Line
+	5650 4050 5400 4050
+Wire Wire Line
+	5400 4050 5400 3750
+Wire Wire Line
+	5400 3750 5200 3750
+Wire Wire Line
+	5650 4150 5350 4150
+Wire Wire Line
+	5350 4150 5350 3850
+Wire Wire Line
+	5350 3850 5200 3850
+Wire Wire Line
+	5650 4250 5300 4250
+Wire Wire Line
+	5300 4250 5300 3950
+Wire Wire Line
+	5300 3950 5200 3950
+Wire Wire Line
+	5650 4350 5250 4350
+Wire Wire Line
+	5250 4350 5250 4050
+Wire Wire Line
+	5250 4050 5200 4050
+Wire Wire Line
+	5200 4150 5200 4450
+Text Label 5300 3350 0    50   ~ 0
+A8
+Text Label 5300 3450 0    50   ~ 0
+A7
+Text Label 5300 3550 0    50   ~ 0
+A6
+Text Label 5300 3650 0    50   ~ 0
+A5
+Text Label 5450 4050 0    50   ~ 0
+A4
+Text Label 5450 4150 0    50   ~ 0
+A3
+Text Label 5450 4250 0    50   ~ 0
+A2
+Text Label 5450 4350 0    50   ~ 0
+A1
+Text GLabel 4800 4150 0    50   Output ~ 0
+D15
+Text GLabel 5200 4450 3    50   Input ~ 0
+DQ15
 $EndSCHEMATC
