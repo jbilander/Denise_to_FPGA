@@ -623,22 +623,14 @@ Text GLabel 4800 2750 0    50   Output ~ 0
 D5
 Text GLabel 4800 2650 0    50   Output ~ 0
 D6
-Text GLabel 6750 2650 2    50   Input ~ 0
+Text GLabel 7650 2650 2    50   Output ~ 0
 D7
-Text GLabel 6750 2750 2    50   Input ~ 0
+Text GLabel 7650 2750 2    50   Output ~ 0
 D8
-Text GLabel 6750 2850 2    50   Input ~ 0
+Text GLabel 7650 2550 2    50   Output ~ 0
 D9
-Text GLabel 6750 2950 2    50   Input ~ 0
+Text GLabel 7650 2450 2    50   Output ~ 0
 D10
-Text GLabel 6750 3050 2    50   Input ~ 0
-D11
-Text GLabel 6750 3150 2    50   Input ~ 0
-D12
-Text GLabel 6750 3250 2    50   Input ~ 0
-D13
-Text GLabel 6750 3350 2    50   Input ~ 0
-D14
 Text GLabel 6750 3450 2    50   Output ~ 0
 DQ15
 NoConn ~ 6750 4300
@@ -851,4 +843,66 @@ Text GLabel 4800 4150 0    50   Output ~ 0
 D15
 Text GLabel 5200 4450 3    50   Input ~ 0
 DQ15
+$Comp
+L Device:R_Pack04 RN6
+U 1 1 6B1277A2
+P 7450 2650
+F 0 "RN6" V 7100 2550 50  0000 L CNN
+F 1 "330" V 7000 2550 50  0000 L CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 7725 2650 50  0001 C CNN
+F 3 "~" H 7450 2650 50  0001 C CNN
+	1    7450 2650
+	0    1    1    0   
+$EndComp
+Text GLabel 6750 2650 2    50   Output ~ 0
+DQ7
+Text GLabel 7250 2650 0    50   Input ~ 0
+DQ7
+Text GLabel 6750 2750 2    50   Output ~ 0
+DQ8
+Text GLabel 6750 2850 2    50   Output ~ 0
+DQ9
+Text GLabel 6750 2950 2    50   Output ~ 0
+DQ10
+Text GLabel 7250 2750 0    50   Input ~ 0
+DQ8
+Text GLabel 7250 2550 0    50   Input ~ 0
+DQ9
+Text GLabel 7250 2450 0    50   Input ~ 0
+DQ10
+Text GLabel 6750 3050 2    50   Output ~ 0
+DQ11
+Text GLabel 6750 3150 2    50   Output ~ 0
+DQ12
+Text GLabel 6750 3250 2    50   Output ~ 0
+DQ13
+Text GLabel 6750 3350 2    50   Output ~ 0
+DQ14
+Text GLabel 8200 2450 0    50   Input ~ 0
+DQ14
+$Comp
+L Device:R_Pack04 RN5
+U 1 1 6B12CDA8
+P 8400 2550
+F 0 "RN5" V 8600 2500 50  0000 L CNN
+F 1 "330" V 8700 2500 50  0000 L CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 8675 2550 50  0001 C CNN
+F 3 "~" H 8400 2550 50  0001 C CNN
+	1    8400 2550
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8600 2450 2    50   Output ~ 0
+D14
+Text GLabel 8600 2550 2    50   Output ~ 0
+D13
+Text GLabel 8600 2650 2    50   Output ~ 0
+D12
+Text GLabel 8600 2750 2    50   Output ~ 0
+D11
+Text GLabel 8200 2550 0    50   Input ~ 0
+DQ13
+Text GLabel 8200 2650 0    50   Input ~ 0
+DQ12
+Text GLabel 8200 2750 0    50   Input ~ 0
+DQ11
 $EndSCHEMATC
