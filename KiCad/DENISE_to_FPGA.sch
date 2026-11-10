@@ -475,7 +475,6 @@ NoConn ~ 5650 3500
 NoConn ~ 5650 4500
 NoConn ~ 6750 3600
 NoConn ~ 6750 3700
-NoConn ~ 6750 4000
 Text GLabel 6750 4100 2    50   Input ~ 0
 C7M
 Text GLabel 6750 4200 2    50   Input ~ 0
@@ -905,4 +904,121 @@ Text GLabel 8200 2650 0    50   Input ~ 0
 DQ12
 Text GLabel 8200 2750 0    50   Input ~ 0
 DQ11
+Text GLabel 1100 4850 0    50   Input ~ 0
+3V3
+Text GLabel 750  4950 0    50   Input ~ 0
+CCK
+Text GLabel 1100 5350 0    50   Input ~ 0
+3V3
+Text GLabel 1100 5650 0    50   Input ~ 0
+1V1
+Text GLabel 1900 6850 3    50   Input ~ 0
+3V3
+Text GLabel 2800 6850 3    50   Input ~ 0
+3V3
+Text GLabel 2900 6850 3    50   Input ~ 0
+1V1
+Text GLabel 3750 6950 3    50   Input ~ 0
+3V3
+Wire Wire Line
+	3700 6850 3700 6950
+Wire Wire Line
+	3800 6850 3800 6950
+Wire Wire Line
+	3700 6950 3800 6950
+Text GLabel 4900 5800 2    50   Input ~ 0
+3V3
+Wire Wire Line
+	4800 5750 4900 5750
+Wire Wire Line
+	4800 5850 4900 5850
+Wire Wire Line
+	4900 5750 4900 5850
+Text GLabel 4800 5050 2    50   Input ~ 0
+3V3
+NoConn ~ 4800 5150
+NoConn ~ 4800 5250
+NoConn ~ 4800 5350
+NoConn ~ 4800 5450
+NoConn ~ 4800 5550
+NoConn ~ 4800 5650
+Text GLabel 1100 5050 0    50   Input ~ 0
+LINK_RET
+Text GLabel 1100 5150 0    50   Output ~ 0
+LINK_D0
+Text GLabel 1100 5250 0    50   Output ~ 0
+LINK_D1
+Text GLabel 1100 5450 0    50   Input ~ 0
+C14M
+NoConn ~ 1100 5550
+Text GLabel 1100 5750 0    50   Input ~ 0
+SWCLK
+Text GLabel 1100 5850 0    50   BiDi ~ 0
+SWDIO
+Text GLabel 1100 5950 0    50   Input ~ 0
+RUN
+Text GLabel 1100 6050 0    50   Output ~ 0
+TX
+Text GLabel 1100 6150 0    50   Input ~ 0
+RX
+Text GLabel 1100 6450 0    50   Input ~ 0
+GND
+Text GLabel 2000 6850 3    50   Input ~ 0
+GND
+NoConn ~ 1100 6250
+NoConn ~ 1100 6350
+Text GLabel 2100 6850 3    50   Input ~ 0
+KBCLK
+Text GLabel 2200 6850 3    50   Input ~ 0
+KBDATA
+Text GLabel 2500 6850 3    50   Input ~ 0
+BT1
+NoConn ~ 2300 6850
+NoConn ~ 2400 6850
+Text GLabel 2600 6850 3    50   Input ~ 0
+BT2
+Text GLabel 2700 6850 3    50   Input ~ 0
+BT3
+NoConn ~ 3000 6850
+NoConn ~ 3100 6850
+NoConn ~ 3200 6850
+NoConn ~ 3300 6850
+NoConn ~ 3400 6850
+NoConn ~ 3500 6850
+NoConn ~ 3600 6850
+Text GLabel 4800 5950 2    50   Input ~ 0
+USB_DP
+Text GLabel 4800 6050 2    50   Input ~ 0
+USB_DM
+Text GLabel 4800 6150 2    50   Input ~ 0
+VREG_FB
+Text GLabel 4800 6250 2    50   Input ~ 0
+VREG_VIN
+Text GLabel 4800 6350 2    50   Input ~ 0
+VREG_LX
+Text GLabel 4800 6450 2    50   Input ~ 0
+VREG_PGND
+Text GLabel 4800 6550 2    50   Input ~ 0
+VREG_AVDD
+$Comp
+L Device:R_Small R2
+U 1 1 6B30EC2E
+P 750 4300
+F 0 "R2" H 600 4350 50  0000 C CNN
+F 1 "330" H 600 4250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 750 4300 50  0001 C CNN
+F 3 "~" H 750 4300 50  0001 C CNN
+	1    750  4300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1100 4950 750  4950
+Wire Wire Line
+	750  4950 750  4400
+Text GLabel 750  4000 2    50   Input ~ 0
+CCK_RAW
+Text GLabel 6750 4000 2    50   Input ~ 0
+CCK_RAW
+Wire Wire Line
+	750  4000 750  4200
 $EndSCHEMATC
