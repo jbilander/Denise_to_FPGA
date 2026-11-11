@@ -1034,4 +1034,12 @@ BT3
 NoConn ~ 9300 5250
 Text GLabel 8100 5250 0    50   Input ~ 0
 GND
+Text GLabel 8100 4950 0    50   Input ~ 0
+LINK_D0
+Text GLabel 8100 4850 0    50   Input ~ 0
+LINK_D1
+Text GLabel 9300 4950 2    50   Output ~ 0
+LINK_D0_BUF
+Text GLabel 9300 4850 2    50   Output ~ 0
+LINK_D1_BUF
 $EndSCHEMATC
