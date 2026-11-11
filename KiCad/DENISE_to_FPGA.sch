@@ -347,7 +347,7 @@ Text GLabel 9300 4750 2    50   Input ~ 0
 3V3
 Wire Wire Line
 	10050 2400 10450 2400
-Text GLabel 10450 2300 0    50   Input ~ 0
+Text GLabel 10450 1700 0    50   Input ~ 0
 CSYNC_3V3
 Text GLabel 10050 1800 0    50   Input ~ 0
 GND
@@ -397,14 +397,6 @@ Wire Wire Line
 	8200 850  7900 850 
 Connection ~ 7900 850 
 Connection ~ 8200 1200
-Text GLabel 10050 2200 0    50   Input ~ 0
-GND
-Wire Wire Line
-	10050 2200 10450 2200
-Text GLabel 10050 2000 0    50   Input ~ 0
-GND
-Wire Wire Line
-	10050 2000 10450 2000
 Text GLabel 10050 1600 0    50   Input ~ 0
 GND
 Wire Wire Line
@@ -412,22 +404,16 @@ Wire Wire Line
 $Comp
 L Device:R_Small R1
 U 1 1 64FE39F6
-P 8950 2000
-F 0 "R1" V 8754 2000 50  0000 C CNN
-F 1 "33 Ω" V 8845 2000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 8950 2000 50  0001 C CNN
-F 3 "~" H 8950 2000 50  0001 C CNN
-	1    8950 2000
+P 8950 1900
+F 0 "R1" V 8754 1900 50  0000 C CNN
+F 1 "33 Ω" V 8845 1900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 8950 1900 50  0001 C CNN
+F 3 "~" H 8950 1900 50  0001 C CNN
+	1    8950 1900
 	0    1    1    0   
 $EndComp
 Text Label 10000 1500 0    50   ~ 0
 C14M_3V3
-NoConn ~ 10450 5400
-NoConn ~ 10450 5200
-NoConn ~ 10450 5000
-NoConn ~ 10450 4900
-NoConn ~ 10450 5100
-NoConn ~ 10450 5300
 Wire Wire Line
 	10450 4000 10350 4000
 Wire Wire Line
@@ -484,7 +470,7 @@ L DENISE_to_FPGA:74LVC162244A U2
 U 1 1 66EA62DE
 P 8700 4250
 F 0 "U2" H 8700 5615 50  0000 C CNN
-F 1 "74LVC162244A" H 8700 5524 50  0000 C CNN
+F 1 "74LVC162244ADGG" H 8700 5524 50  0000 C CNN
 F 2 "Package_SO:TSSOP-48_6.1x12.5mm_P0.5mm" H 9150 5450 50  0001 L CNN
 F 3 "" H 9150 5350 50  0001 L CNN
 	1    8700 4250
@@ -510,9 +496,9 @@ Text GLabel 6400 1950 0    50   Input ~ 0
 CDAC
 Text GLabel 6750 4400 2    50   Input ~ 0
 CSYNC
-Text GLabel 8100 4850 0    50   Input ~ 0
+Text GLabel 8100 5150 0    50   Input ~ 0
 CSYNC
-Text GLabel 9300 4850 2    50   Output ~ 0
+Text GLabel 9300 5150 2    50   Output ~ 0
 CSYNC_3V3
 Text GLabel 6400 1850 0    50   Input ~ 0
 CSYNC
@@ -556,42 +542,40 @@ Connection ~ 8500 1200
 Wire Wire Line
 	9000 1200 8800 1200
 Connection ~ 8800 1200
-Text GLabel 8500 1900 2    50   Input ~ 0
+Text GLabel 8500 1800 2    50   Input ~ 0
 3V3
-Text GLabel 7200 1800 0    50   Input ~ 0
+Text GLabel 7200 1700 0    50   Input ~ 0
 CDAC
-Text GLabel 7500 1900 0    50   Input ~ 0
+Text GLabel 7500 1800 0    50   Input ~ 0
 GND
 Wire Wire Line
 	9450 1500 10450 1500
-Text GLabel 8500 1800 2    50   Input ~ 0
+Text GLabel 8500 1700 2    50   Input ~ 0
 C7M
 $Comp
 L DENISE_to_FPGA:74LVC1G57GV U3
 U 1 1 66FF807E
-P 8000 1900
-F 0 "U3" H 8000 2265 50  0000 C CNN
-F 1 "74LVC1G57GV" H 8000 2174 50  0000 C CNN
-F 2 "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm" H 8350 2100 50  0001 L CNN
-F 3 "" H 8350 2000 50  0001 L CNN
-	1    8000 1900
+P 8000 1800
+F 0 "U3" H 8000 2165 50  0000 C CNN
+F 1 "74LVC1G57GV" H 8000 2074 50  0000 C CNN
+F 2 "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm" H 8350 2000 50  0001 L CNN
+F 3 "" H 8350 1900 50  0001 L CNN
+	1    8000 1800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8500 2000 8850 2000
+	8500 1900 8850 1900
 Wire Wire Line
-	7200 1800 7250 1800
+	7200 1700 7250 1700
 Wire Wire Line
-	7250 1800 7250 2000
+	7250 1700 7250 1900
 Wire Wire Line
-	7250 2000 7500 2000
-Connection ~ 7250 1800
+	7250 1900 7500 1900
+Connection ~ 7250 1700
 Wire Wire Line
-	7250 1800 7500 1800
+	7250 1700 7500 1700
 Wire Wire Line
-	9450 2000 9450 1500
-Wire Wire Line
-	9050 2000 9450 2000
+	9050 1900 9450 1900
 Text GLabel 4800 4050 0    50   Output ~ 0
 RGA1
 Text GLabel 4800 3950 0    50   Output ~ 0
@@ -1021,4 +1005,33 @@ Text GLabel 6750 4000 2    50   Input ~ 0
 CCK_RAW
 Wire Wire Line
 	750  4000 750  4200
+Text GLabel 10450 2100 0    50   Output ~ 0
+LINK_RET
+Text GLabel 10450 1900 0    50   Input ~ 0
+LINK_D0_BUF
+Text GLabel 10450 2000 0    50   Input ~ 0
+LINK_D1_BUF
+Text GLabel 10450 2200 0    50   Input ~ 0
+TX
+Text GLabel 10450 2300 0    50   Output ~ 0
+RX
+Text GLabel 10450 4900 0    50   Input ~ 0
+GND
+Text GLabel 10450 5300 0    50   Input ~ 0
+GND
+Text GLabel 10450 5400 0    50   Input ~ 0
+GND
+Text Label 8650 1900 3    50   ~ 0
+C14M_RAW
+Wire Wire Line
+	9450 1900 9450 1500
+Text GLabel 10450 5000 0    50   Input ~ 0
+BT1
+Text GLabel 10450 5100 0    50   Input ~ 0
+BT2
+Text GLabel 10450 5200 0    50   Input ~ 0
+BT3
+NoConn ~ 9300 5250
+Text GLabel 8100 5250 0    50   Input ~ 0
+GND
 $EndSCHEMATC
