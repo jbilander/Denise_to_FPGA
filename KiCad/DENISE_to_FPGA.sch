@@ -405,9 +405,9 @@ $Comp
 L Device:R_Small R1
 U 1 1 64FE39F6
 P 8950 1900
-F 0 "R1" V 8754 1900 50  0000 C CNN
+F 0 "R1" V 8950 1900 50  0000 C CNN
 F 1 "33 Ω" V 8845 1900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 8950 1900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 8950 1900 50  0001 C CNN
 F 3 "~" H 8950 1900 50  0001 C CNN
 	1    8950 1900
 	0    1    1    0   
@@ -564,7 +564,7 @@ F 3 "" H 8350 1900 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8500 1900 8850 1900
+	8500 1900 8750 1900
 Wire Wire Line
 	7200 1700 7250 1700
 Wire Wire Line
@@ -1042,4 +1042,26 @@ Text GLabel 9300 4950 2    50   Output ~ 0
 LINK_D0_BUF
 Text GLabel 9300 4850 2    50   Output ~ 0
 LINK_D1_BUF
+$Comp
+L Device:R_Small R?
+U 1 1 6B572CB5
+P 8950 2000
+F 0 "R?" V 8950 2000 50  0000 C CNN
+F 1 "33 Ω" V 9050 2000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 8950 2000 50  0001 C CNN
+F 3 "~" H 8950 2000 50  0001 C CNN
+	1    8950 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8750 1900 8750 2000
+Wire Wire Line
+	8750 2000 8850 2000
+Connection ~ 8750 1900
+Wire Wire Line
+	8750 1900 8850 1900
+Text GLabel 9200 2000 2    50   Output ~ 0
+C14M
+Wire Wire Line
+	9050 2000 9200 2000
 $EndSCHEMATC
