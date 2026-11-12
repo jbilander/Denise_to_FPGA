@@ -970,9 +970,9 @@ NoConn ~ 3300 6850
 NoConn ~ 3400 6850
 NoConn ~ 3500 6850
 NoConn ~ 3600 6850
-Text GLabel 4800 5950 2    50   Input ~ 0
+Text GLabel 5700 5950 2    50   Input ~ 0
 USB_DP
-Text GLabel 4800 6050 2    50   Input ~ 0
+Text GLabel 5700 6050 2    50   Input ~ 0
 USB_DM
 Text GLabel 4800 6150 2    50   Input ~ 0
 VREG_FB
@@ -1065,10 +1065,10 @@ C14M
 Wire Wire Line
 	9050 2000 9200 2000
 $Comp
-L Connector:USB_B_Micro J?
+L Connector:USB_B_Micro J4
 U 1 1 6B5E4556
 P 3050 3000
-F 0 "J?" H 3107 3467 50  0000 C CNN
+F 0 "J4" H 3107 3467 50  0000 C CNN
 F 1 "USB_B_Micro" H 3107 3376 50  0000 C CNN
 F 2 "DENISE_to_FPGA:101181940001LF" H 3200 2950 50  0001 C CNN
 F 3 "~" H 3200 2950 50  0001 C CNN
@@ -1089,4 +1089,34 @@ Text GLabel 3350 3000 2    50   Input ~ 0
 USB_DP
 Text GLabel 3350 3100 2    50   Input ~ 0
 USB_DM
+$Comp
+L Device:R_Small R4
+U 1 1 6B61233F
+P 5450 5950
+F 0 "R4" V 5450 5950 50  0000 C CNN
+F 1 "27 Ω" V 5345 5950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 5450 5950 50  0001 C CNN
+F 3 "~" H 5450 5950 50  0001 C CNN
+	1    5450 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R5
+U 1 1 6B612349
+P 5450 6050
+F 0 "R5" V 5450 6050 50  0000 C CNN
+F 1 "27 Ω" V 5550 6050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 5450 6050 50  0001 C CNN
+F 3 "~" H 5450 6050 50  0001 C CNN
+	1    5450 6050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4800 5950 5350 5950
+Wire Wire Line
+	4800 6050 5350 6050
+Wire Wire Line
+	5550 5950 5700 5950
+Wire Wire Line
+	5550 6050 5700 6050
 $EndSCHEMATC
