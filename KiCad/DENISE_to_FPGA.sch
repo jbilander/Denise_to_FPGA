@@ -1064,4 +1064,29 @@ Text GLabel 9200 2000 2    50   Output ~ 0
 C14M
 Wire Wire Line
 	9050 2000 9200 2000
+$Comp
+L Connector:USB_B_Micro J?
+U 1 1 6B5E4556
+P 3050 3000
+F 0 "J?" H 3107 3467 50  0000 C CNN
+F 1 "USB_B_Micro" H 3107 3376 50  0000 C CNN
+F 2 "DENISE_to_FPGA:101181940001LF" H 3200 2950 50  0001 C CNN
+F 3 "~" H 3200 2950 50  0001 C CNN
+	1    3050 3000
+	1    0    0    -1  
+$EndComp
+Text GLabel 3000 3500 3    50   Input ~ 0
+GND
+Wire Wire Line
+	2950 3400 2950 3500
+Wire Wire Line
+	3050 3400 3050 3500
+Wire Wire Line
+	2950 3500 3050 3500
+NoConn ~ 3350 2800
+NoConn ~ 3350 3200
+Text GLabel 3350 3000 2    50   Input ~ 0
+USB_DP
+Text GLabel 3350 3100 2    50   Input ~ 0
+USB_DM
 $EndSCHEMATC
