@@ -402,10 +402,10 @@ GND
 Wire Wire Line
 	10050 1600 10450 1600
 $Comp
-L Device:R_Small R1
+L Device:R_Small R3
 U 1 1 64FE39F6
 P 8950 1900
-F 0 "R1" V 8950 1900 50  0000 C CNN
+F 0 "R3" V 8950 1900 50  0000 C CNN
 F 1 "33 Ω" V 8845 1900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 8950 1900 50  0001 C CNN
 F 3 "~" H 8950 1900 50  0001 C CNN
@@ -980,15 +980,11 @@ Text GLabel 4800 6250 2    50   Input ~ 0
 VREG_VIN
 Text GLabel 4800 6350 2    50   Input ~ 0
 VREG_LX
-Text GLabel 4800 6450 2    50   Input ~ 0
-VREG_PGND
-Text GLabel 4800 6550 2    50   Input ~ 0
-VREG_AVDD
 $Comp
-L Device:R_Small R3
+L Device:R_Small R6
 U 1 1 6B30EC2E
 P 750 4300
-F 0 "R3" H 600 4350 50  0000 C CNN
+F 0 "R6" H 600 4350 50  0000 C CNN
 F 1 "330" H 600 4250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 750 4300 50  0001 C CNN
 F 3 "~" H 750 4300 50  0001 C CNN
@@ -1043,10 +1039,10 @@ LINK_D0_BUF
 Text GLabel 9300 4850 2    50   Output ~ 0
 LINK_D1_BUF
 $Comp
-L Device:R_Small R2
+L Device:R_Small R4
 U 1 1 6B572CB5
 P 8950 2000
-F 0 "R2" V 8950 2000 50  0000 C CNN
+F 0 "R4" V 8950 2000 50  0000 C CNN
 F 1 "33 Ω" V 9050 2000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 8950 2000 50  0001 C CNN
 F 3 "~" H 8950 2000 50  0001 C CNN
@@ -1090,10 +1086,10 @@ USB_DP
 Text GLabel 3350 3100 2    50   Input ~ 0
 USB_DM
 $Comp
-L Device:R_Small R4
+L Device:R_Small R1
 U 1 1 6B61233F
 P 5450 5950
-F 0 "R4" V 5450 5950 50  0000 C CNN
+F 0 "R1" V 5450 5950 50  0000 C CNN
 F 1 "27 Ω" V 5345 5950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 5450 5950 50  0001 C CNN
 F 3 "~" H 5450 5950 50  0001 C CNN
@@ -1101,10 +1097,10 @@ F 3 "~" H 5450 5950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R5
+L Device:R_Small R2
 U 1 1 6B612349
 P 5450 6050
-F 0 "R5" V 5450 6050 50  0000 C CNN
+F 0 "R2" V 5450 6050 50  0000 C CNN
 F 1 "27 Ω" V 5550 6050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 5450 6050 50  0001 C CNN
 F 3 "~" H 5450 6050 50  0001 C CNN
@@ -1119,4 +1115,45 @@ Wire Wire Line
 	5550 5950 5700 5950
 Wire Wire Line
 	5550 6050 5700 6050
+Text GLabel 4800 6450 2    50   Input ~ 0
+GND
+Text GLabel 5000 6900 3    50   Input ~ 0
+GND
+Wire Wire Line
+	4800 6550 5000 6550
+$Comp
+L Device:C_Small C9
+U 1 1 6B6F06DD
+P 5000 6700
+F 0 "C9" H 5100 6600 50  0000 L CNN
+F 1 "4.7uF" H 5100 6700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 5000 6700 50  0001 C CNN
+F 3 "~" H 5000 6700 50  0001 C CNN
+	1    5000 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 6550 5000 6600
+Wire Wire Line
+	5000 6800 5000 6900
+$Comp
+L Device:R_Small R5
+U 1 1 6B701A93
+P 5650 6550
+F 0 "R5" V 5650 6550 50  0000 C CNN
+F 1 "33 Ω" V 5750 6550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 5650 6550 50  0001 C CNN
+F 3 "~" H 5650 6550 50  0001 C CNN
+	1    5650 6550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5000 6550 5550 6550
+Connection ~ 5000 6550
+Text Label 5100 6550 0    50   ~ 0
+VREG_AVDD
+Text GLabel 5900 6550 2    50   Input ~ 0
+3V3
+Wire Wire Line
+	5900 6550 5750 6550
 $EndSCHEMATC
