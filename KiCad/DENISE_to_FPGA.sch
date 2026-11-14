@@ -974,7 +974,7 @@ Text GLabel 5200 5300 1    50   Input ~ 0
 USB_DP
 Text GLabel 5300 5300 1    50   Input ~ 0
 USB_DM
-Text GLabel 5600 5850 2    50   Input ~ 0
+Text GLabel 6150 5700 2    50   Input ~ 0
 VREG_VIN
 $Comp
 L Device:R_Small R6
@@ -1162,13 +1162,11 @@ Text GLabel 6900 6150 2    50   Output ~ 0
 1V1
 Wire Wire Line
 	4800 6250 5600 6250
-Wire Wire Line
-	5600 6250 5600 5850
 $Comp
-L Device:L_Small L?
+L Device:L_Small L1
 U 1 1 6B76B83E
 P 5950 6250
-F 0 "L?" H 5998 6296 50  0000 L CNN
+F 0 "L1" H 5998 6296 50  0000 L CNN
 F 1 "L_Small" H 5998 6205 50  0000 L CNN
 F 2 "DENISE_to_FPGA:AOTAB201610S3R3101T" H 5950 6250 50  0001 C CNN
 F 3 "~" H 5950 6250 50  0001 C CNN
@@ -1182,4 +1180,21 @@ Wire Wire Line
 	4800 6350 5950 6350
 Text Label 5100 6350 0    50   ~ 0
 VREG_LX
+$Comp
+L Device:C_Small C10
+U 1 1 6B7A1BC0
+P 5600 5900
+F 0 "C10" H 5350 5800 50  0000 L CNN
+F 1 "4.7uF" H 5250 5900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 5600 5900 50  0001 C CNN
+F 3 "~" H 5600 5900 50  0001 C CNN
+	1    5600 5900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5600 6000 5600 6250
+Text GLabel 5600 5800 1    50   Input ~ 0
+GND
+Text GLabel 5600 6050 2    50   Input ~ 0
+3V3
 $EndSCHEMATC
