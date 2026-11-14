@@ -974,8 +974,6 @@ Text GLabel 5200 5300 1    50   Input ~ 0
 USB_DP
 Text GLabel 5300 5300 1    50   Input ~ 0
 USB_DM
-Text GLabel 6150 5700 2    50   Input ~ 0
-VREG_VIN
 $Comp
 L Device:R_Small R6
 U 1 1 6B30EC2E
@@ -1175,7 +1173,7 @@ F 3 "~" H 5950 6250 50  0001 C CNN
 $EndComp
 Connection ~ 5950 6150
 Wire Wire Line
-	5950 6150 6900 6150
+	5950 6150 6400 6150
 Wire Wire Line
 	4800 6350 5950 6350
 Text Label 5100 6350 0    50   ~ 0
@@ -1197,4 +1195,22 @@ Text GLabel 5600 5800 1    50   Input ~ 0
 GND
 Text GLabel 5600 6050 2    50   Input ~ 0
 3V3
+$Comp
+L Device:C_Small C4
+U 1 1 6B8192FE
+P 6400 5900
+F 0 "C4" H 6150 5800 50  0000 L CNN
+F 1 "4.7uF" H 6050 5900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 6400 5900 50  0001 C CNN
+F 3 "~" H 6400 5900 50  0001 C CNN
+	1    6400 5900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6400 6000 6400 6150
+Connection ~ 6400 6150
+Wire Wire Line
+	6400 6150 6900 6150
+Text GLabel 6400 5800 1    50   Input ~ 0
+GND
 $EndSCHEMATC
