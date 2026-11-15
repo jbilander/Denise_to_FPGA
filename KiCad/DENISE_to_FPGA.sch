@@ -1268,8 +1268,6 @@ Wire Wire Line
 Wire Wire Line
 	9700 850  9400 850 
 Connection ~ 9400 850 
-Wire Wire Line
-	9700 1200 10000 1200
 $Comp
 L Device:C_Small C15
 U 1 1 6B8EEAA3
@@ -1281,9 +1279,6 @@ F 3 "~" H 6550 6250 50  0001 C CNN
 	1    6550 6250
 	1    0    0    -1  
 $EndComp
-Connection ~ 10000 1200
-Wire Wire Line
-	10000 1200 10850 1200
 Wire Wire Line
 	10000 1000 10000 850 
 Wire Wire Line
@@ -1294,4 +1289,20 @@ Wire Wire Line
 	6550 6150 6900 6150
 Text GLabel 6550 6350 3    50   Input ~ 0
 GND
+Wire Wire Line
+	9700 1200 10000 1200
+$Comp
+L Device:C_Small C16
+U 1 1 6B9158A9
+P 10000 1100
+F 0 "C16" H 10100 1150 50  0000 L CNN
+F 1 "0.1uF" H 10050 1250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 10000 1100 50  0001 C CNN
+F 3 "~" H 10000 1100 50  0001 C CNN
+	1    10000 1100
+	1    0    0    -1  
+$EndComp
+Connection ~ 10000 1200
+Wire Wire Line
+	10000 1200 10850 1200
 $EndSCHEMATC
