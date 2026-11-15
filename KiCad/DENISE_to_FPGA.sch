@@ -1318,10 +1318,29 @@ F 3 "~" H 8900 1150 50  0001 C CNN
 $EndComp
 Connection ~ 8900 1250
 Wire Wire Line
-	8900 1250 9450 1250
+	8900 1250 9200 1250
 Wire Wire Line
 	8900 1050 8900 900 
 Wire Wire Line
 	8900 900  8600 900 
 Connection ~ 8600 900 
+$Comp
+L Device:C_Small C?
+U 1 1 6B98219F
+P 9200 1150
+F 0 "C?" H 9300 1200 50  0000 L CNN
+F 1 "0.1uF" H 9250 1300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 9200 1150 50  0001 C CNN
+F 3 "~" H 9200 1150 50  0001 C CNN
+	1    9200 1150
+	1    0    0    -1  
+$EndComp
+Connection ~ 9200 1250
+Wire Wire Line
+	9200 1250 9450 1250
+Wire Wire Line
+	9200 1050 9200 900 
+Wire Wire Line
+	9200 900  8900 900 
+Connection ~ 8900 900 
 $EndSCHEMATC
