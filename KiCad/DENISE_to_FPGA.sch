@@ -375,7 +375,7 @@ U 1 1 64FF4A26
 P 5650 1850
 F 0 "J2" H 5730 1796 50  0000 L CNN
 F 1 "Conn_01x02" H 5730 1751 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 5650 1850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5650 1850 50  0001 C CNN
 F 3 "~" H 5650 1850 50  0001 C CNN
 	1    5650 1850
 	1    0    0    -1  
@@ -1463,4 +1463,12 @@ Text GLabel 950  6900 3    50   Input ~ 0
 GND
 Wire Wire Line
 	950  6800 950  6900
+Wire Wire Line
+	5450 1850 5200 1850
+Text Label 5200 1850 0    50   ~ 0
+KBCLK
+Wire Wire Line
+	5450 1950 5200 1950
+Text Label 5200 1950 0    50   ~ 0
+KBDATA
 $EndSCHEMATC
