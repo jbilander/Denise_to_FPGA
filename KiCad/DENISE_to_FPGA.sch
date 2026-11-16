@@ -1471,4 +1471,21 @@ Wire Wire Line
 	5450 1950 5200 1950
 Text Label 5200 1950 0    50   ~ 0
 KBDATA
+$Comp
+L Connector_Generic:Conn_01x03 J5
+U 1 1 6BB853D9
+P 4550 1950
+F 0 "J5" H 4630 1946 50  0000 L CNN
+F 1 "Conn_01x03" H 4630 1901 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4550 1950 50  0001 C CNN
+F 3 "~" H 4550 1950 50  0001 C CNN
+	1    4550 1950
+	1    0    0    -1  
+$EndComp
+Text GLabel 4350 1850 0    50   Input ~ 0
+SWCLK
+Text GLabel 4350 2050 0    50   BiDi ~ 0
+SWDIO
+Text GLabel 4350 1950 0    50   Input ~ 0
+GND
 $EndSCHEMATC
