@@ -937,15 +937,15 @@ Text GLabel 1100 5750 0    50   Input ~ 0
 SWCLK
 Text GLabel 1100 5850 0    50   BiDi ~ 0
 SWDIO
-Text GLabel 1100 5950 0    50   Input ~ 0
+Text GLabel 550  6900 3    50   Input ~ 0
 RUN
 Text GLabel 1100 6050 0    50   Output ~ 0
 TX
 Text GLabel 1100 6150 0    50   Input ~ 0
 RX
-Text GLabel 1100 6450 0    50   Input ~ 0
+Text GLabel 1100 6750 3    50   Input ~ 0
 GND
-Text GLabel 2000 6850 3    50   Input ~ 0
+Text GLabel 2000 7300 3    50   Input ~ 0
 GND
 NoConn ~ 1100 6250
 NoConn ~ 1100 6350
@@ -1379,10 +1379,10 @@ Connection ~ 9200 900
 Wire Wire Line
 	9500 1250 9800 1250
 $Comp
-L Device:C_Small C?
+L Device:C_Small C21
 U 1 1 6BA50B9F
 P 9800 1150
-F 0 "C?" H 9900 1200 50  0000 L CNN
+F 0 "C21" H 9900 1200 50  0000 L CNN
 F 1 "0.1uF" H 9850 1300 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 9800 1150 50  0001 C CNN
 F 3 "~" H 9800 1150 50  0001 C CNN
@@ -1397,4 +1397,70 @@ Wire Wire Line
 Wire Wire Line
 	9800 900  9500 900 
 Connection ~ 9500 900 
+Wire Wire Line
+	1100 6450 1100 6750
+Text Label 1100 6750 1    50   ~ 0
+STRAP0
+Wire Wire Line
+	2000 6850 2000 7300
+Text Label 2000 7200 2    50   ~ 0
+STRAP1
+$Comp
+L Device:C_Small C22
+U 1 1 6BAD2A34
+P 750 6200
+F 0 "C22" H 800 6300 50  0000 L CNN
+F 1 "0.1uF" H 800 6100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 750 6200 50  0001 C CNN
+F 3 "~" H 750 6200 50  0001 C CNN
+	1    750  6200
+	1    0    0    -1  
+$EndComp
+Text GLabel 750  6300 3    50   Input ~ 0
+GND
+Wire Wire Line
+	1100 5950 750  5950
+Wire Wire Line
+	750  6100 750  5950
+Connection ~ 750  5950
+Wire Wire Line
+	750  5950 550  5950
+$Comp
+L Device:R_Small R7
+U 1 1 6BAFDB2F
+P 550 5750
+F 0 "R7" H 450 5650 50  0000 C CNN
+F 1 "4k7" H 450 5750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 550 5750 50  0001 C CNN
+F 3 "~" H 550 5750 50  0001 C CNN
+	1    550  5750
+	-1   0    0    1   
+$EndComp
+Text GLabel 550  5550 1    50   Input ~ 0
+3V3
+Wire Wire Line
+	550  5550 550  5650
+Wire Wire Line
+	550  5850 550  5950
+Connection ~ 550  5950
+$Comp
+L Switch:SW_Push SW1
+U 1 1 6BB20A3A
+P 750 6800
+F 0 "SW1" H 750 6750 50  0000 C CNN
+F 1 "SW_Push" H 750 6950 50  0000 C CNN
+F 2 "DENISE_to_FPGA:Sunrom_Tactile_Switch_3x4x2mm_SMD_2-Pin" H 750 7000 50  0001 C CNN
+F 3 "~" H 750 7000 50  0001 C CNN
+	1    750  6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	550  5950 550  6800
+Connection ~ 550  6800
+Wire Wire Line
+	550  6800 550  6900
+Text GLabel 950  6900 3    50   Input ~ 0
+GND
+Wire Wire Line
+	950  6800 950  6900
 $EndSCHEMATC
