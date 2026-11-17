@@ -1488,4 +1488,17 @@ F 3 "~" H 8000 1150 50  0001 C CNN
 	1    8000 1150
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J6
+U 1 1 6BC22222
+P 3250 1950
+F 0 "J6" H 3330 1992 50  0000 L CNN
+F 1 "Conn_01x01" H 3330 1901 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3250 1950 50  0001 C CNN
+F 3 "~" H 3250 1950 50  0001 C CNN
+	1    3250 1950
+	1    0    0    -1  
+$EndComp
+Text GLabel 3050 1950 0    50   Input ~ 0
+GND
 $EndSCHEMATC
